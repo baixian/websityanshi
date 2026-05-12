@@ -1,0 +1,2 @@
+[     593ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/index.116d8.js:11069
+[     598ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/index.116d8.js:12729

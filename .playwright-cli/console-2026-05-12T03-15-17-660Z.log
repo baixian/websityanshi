@@ -1,0 +1,29 @@
+[    2513ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/index.6fc30.js:11069
+[    2515ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1284086ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1299478ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1299480ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1323052ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1323053ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1357589ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1357590ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1367594ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1367597ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1368582ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1368583ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1368900ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.385cf.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 1368976ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.385cf.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 1369029ms] [LOG] [HMR] Updated modules: @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1369029ms] [LOG] [HMR]  - ./src/pages/index/index.less @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1369029ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1369104ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.385cf.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 1369107ms] [LOG] [HMR] Reload all css @ http://localhost:9100/js/index.6fc30.js:10026
+[ 1369197ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.385cf.css?1778557086767' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 1614837ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1638423ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/index.6fc30.js:11069
+[ 1638424ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1638974ms] [LOG] [HMR] Updated modules: @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1638974ms] [LOG] [HMR]  - ./src/pages/index/index.less @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1638974ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/index.6fc30.js:12729
+[ 1639026ms] [LOG] [HMR] Reload all css @ http://localhost:9100/js/index.6fc30.js:10026
+[ 1639063ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.385cf.css?1778557356686' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0

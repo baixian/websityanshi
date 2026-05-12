@@ -1,0 +1,17 @@
+[     215ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/index.54665.js:11069
+[     220ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/index.54665.js:12729
+[  811681ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/index.54665.js:11069
+[  813780ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/index.54665.js:11069
+[  813781ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/index.54665.js:12729
+[  813808ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.0ef3c.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[  813815ms] [LOG] [HMR] Updated modules: @ http://localhost:9100/js/index.54665.js:12729
+[  813815ms] [LOG] [HMR]  - ./src/pages/index/index.less @ http://localhost:9100/js/index.54665.js:12729
+[  813815ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/index.54665.js:12729
+[  813815ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.0ef3c.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[  813866ms] [LOG] [HMR] Reload all css @ http://localhost:9100/js/index.54665.js:10026
+[  813875ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.0ef3c.css?1778493641653' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[  924335ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/index.54665.js:11069
+[  926010ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/index.54665.js:11069
+[  926010ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/index.54665.js:12729
+[  926027ms] [LOG] [HMR] Nothing hot updated. @ http://localhost:9100/js/index.54665.js:12729
+[  926027ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/index.54665.js:12729

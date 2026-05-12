@@ -1,0 +1,6 @@
+[    7817ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/products.b2f90.js:11069
+[    7820ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/products.b2f90.js:12729
+[  707829ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/products.b2f90.js:11069
+[  707831ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/products.b2f90.js:11069
+[ 2775759ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/products.b2f90.js:11069
+[ 2775776ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/products.b2f90.js:11069

@@ -1,0 +1,19 @@
+{
+  "name": "呐客科技",
+  "short_name": "呐客科技",
+  "description": "聚合解决方案、产品能力、行业场景、客户案例、合作模式与技术合规内容的品牌增长站点。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6efe7",
+  "theme_color": "#f6efe7",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

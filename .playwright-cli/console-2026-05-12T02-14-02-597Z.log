@@ -1,0 +1,28 @@
+[    4201ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/index.57fbe.js:11069
+[    4205ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/index.57fbe.js:12729
+[    7220ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[    7221ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[  850787ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[  850791ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1254263ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1345377ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1345379ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1362445ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1362456ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1387971ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1387972ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1614209ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1614210ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1620070ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1620071ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1622694ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/index.57fbe.js:11069
+[ 1622697ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/index.57fbe.js:12729
+[ 1624808ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.6c274.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 1624824ms] [LOG] [HMR] Updated modules: @ http://localhost:9100/js/index.57fbe.js:12729
+[ 1624824ms] [LOG] [HMR]  - ./src/pages/index/index.less @ http://localhost:9100/js/index.57fbe.js:12729
+[ 1624824ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/index.57fbe.js:12729
+[ 1624932ms] [LOG] [HMR] Reload all css @ http://localhost:9100/js/index.57fbe.js:10026
+[ 1626402ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.6c274.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 1626462ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.6c274.css?1778553667529' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[ 2186696ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/index.6fc30.js:11069
+[ 2186697ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/index.6fc30.js:12729

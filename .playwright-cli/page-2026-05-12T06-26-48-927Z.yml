@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "呐客科技首页" [ref=e4] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e6]:
+          - strong [ref=e7]: 呐客科技
+          - generic [ref=e8]: 扫码入口与私域增长
+      - navigation "主导航" [ref=e9]:
+        - link "首页" [ref=e10] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e11] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品能力" [ref=e12] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e13] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e14] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e15] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全合规" [ref=e16] [cursor=pointer]:
+          - /url: ./security.html
+        - link "联系咨询" [ref=e17] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: 联系咨询
+        - heading "业务背景清楚，沟通更高效。" [level=1] [ref=e23]
+        - paragraph [ref=e24]: 你可以在这里说明当前业务阶段、增长目标和主要顾虑，我们会据此判断更适合先聊方案、预约演示，还是先确认合作方式与服务边界。
+        - generic [ref=e25]:
+          - link "提交当前需求" [ref=e26] [cursor=pointer]:
+            - /url: "#contact-intake"
+          - link "先看合作模式" [ref=e27] [cursor=pointer]:
+            - /url: ./models.html
+        - generic [ref=e28]:
+          - generic [ref=e29]: •带着真实业务来沟通
+          - generic [ref=e30]: •先判断当前阶段
+          - generic [ref=e31]: •再给匹配建议
+        - generic [ref=e32]:
+          - article [ref=e33]:
+            - strong [ref=e34]: 3 类入口
+            - generic [ref=e35]: 方案沟通、产品演示、合作评估三种常见推进方式，按你的当前情况选择。
+          - article [ref=e36]:
+            - strong [ref=e37]: 4 步沟通
+            - generic [ref=e38]: 围绕阶段、目标、约束与下一步推进，减少首次沟通的来回试探。
+          - article [ref=e39]:
+            - strong [ref=e40]: 1 个行动入口
+            - generic [ref=e41]: 把方案、产品、合规与合作问题集中提交，方便后续沟通更聚焦。
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - strong [ref=e45]: 沟通入口
+            - paragraph [ref=e46]: 先判断当前所处阶段，再进入更合适的方案沟通、演示预约或合作评估节奏。
+          - generic [ref=e50]:
+            - generic [ref=e51]: 需求简报
+            - strong [ref=e52]: 业务背景与目标
+          - generic [ref=e53]:
+            - generic [ref=e54]: 推进路径
+            - strong [ref=e55]: 方案 / 演示 / 合作
+          - generic [ref=e56]:
+            - generic [ref=e57]: 团队协同
+            - strong [ref=e58]: 商务、运营与管理共识
+          - generic [ref=e59]:
+            - strong [ref=e60]: 商务协作
+            - generic [ref=e61]: 围绕业务背景、当前目标与团队协作方式展开沟通，让咨询进入更清晰的推进路径。
+        - complementary [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: 沟通准备
+            - heading "首次联系更高效的前提，是先把业务问题说准，而不是先把表单填满。" [level=3] [ref=e65]
+            - generic [ref=e66]:
+              - article [ref=e67]:
+                - heading "准备业务阶段" [level=3] [ref=e68]
+                - paragraph [ref=e69]: 是刚启动验证、正在找增长抓手，还是已经进入跨部门评估与推进阶段。
+              - article [ref=e70]:
+                - heading "准备关键目标" [level=3] [ref=e71]
+                - paragraph [ref=e72]: 明确你更关心拉新、复购、会员沉淀、渠道协同，还是服务方式与团队分工。
+              - article [ref=e73]:
+                - heading "准备约束条件" [level=3] [ref=e74]
+                - paragraph [ref=e75]: 例如预算周期、上线时间、安全要求、现有系统和需要参与决策的角色范围。
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - heading "把当前情况说清楚，后面的沟通就会快很多" [level=2] [ref=e79]
+        - paragraph [ref=e80]: 提交业务背景与沟通重点后，团队可以更快进入方案判断、演示安排与合作评估。
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: 联系入口
+          - heading "留下联系方式之外，也建议补充业务背景和当前顾虑。" [level=3] [ref=e85]
+          - paragraph [ref=e86]: 行业、渠道结构、优先目标和当前顾虑，会直接决定下一步是继续看解决方案、安排产品演示，还是先进入合作与安全评估。
+          - generic [ref=e87]:
+            - generic [ref=e88]: 适合市场或渠道团队发起咨询
+            - generic [ref=e89]: 适合大客户正式评估前置沟通
+            - generic [ref=e90]: 适合多部门共同评估前先对齐信息
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e94]: 联系人姓名
+              - textbox "联系人姓名" [ref=e95]:
+                - /placeholder: 请填写联系人姓名
+            - generic [ref=e97]:
+              - generic [ref=e98]: 联系电话
+              - textbox "联系电话" [ref=e99]:
+                - /placeholder: 请填写联系电话
+            - generic [ref=e101]:
+              - generic [ref=e102]: 公司 / 品牌
+              - textbox "公司 / 品牌" [ref=e103]:
+                - /placeholder: 请填写公司或品牌名称
+            - generic [ref=e105]:
+              - generic [ref=e106]: 所属行业
+              - textbox "所属行业" [ref=e107]:
+                - /placeholder: 如快消、酒水、食品、零售
+            - generic [ref=e108]:
+              - generic [ref=e109]: 当前渠道结构
+              - textbox "当前渠道结构" [ref=e110]:
+                - /placeholder: 如线下门店 / 电商 / 经销 / 私域
+            - generic [ref=e111]:
+              - generic [ref=e112]: 优先沟通方向
+              - textbox "优先沟通方向" [ref=e113]:
+                - /placeholder: 如解决方案 / 产品演示 / 合作模式
+            - generic [ref=e114]:
+              - generic [ref=e115]: 当前需求简述
+              - textbox "当前需求简述" [ref=e116]:
+                - /placeholder: 简单描述业务阶段、目标、已有系统，或当前最担心的问题
+          - generic [ref=e118]:
+            - button "提交咨询信息" [ref=e119] [cursor=pointer]
+            - paragraph
+          - paragraph [ref=e120]:
+            - strong [ref=e121]: 沟通说明
+            - generic [ref=e122]: 提交后，我们会根据你填写的业务信息安排后续沟通。
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "不同团队，应该从不同入口进入" [level=2] [ref=e126]
+        - paragraph [ref=e127]: 我们会根据你的业务成熟度和当前任务，安排更合适的沟通方式。
+      - generic [ref=e128]:
+        - article [ref=e129]:
+          - strong [ref=e130]: 入口一
+          - heading "先聊方案方向" [level=3] [ref=e131]
+          - paragraph [ref=e132]: 适合仍在判断增长抓手、扫码入口和会员沉淀策略的团队，先把经营逻辑和业务优先级对齐。
+          - link "回看解决方案" [ref=e133] [cursor=pointer]:
+            - /url: ./solution.html
+        - article [ref=e134]:
+          - strong [ref=e135]: 入口二
+          - heading "直接约产品演示" [level=3] [ref=e136]
+          - paragraph [ref=e137]: 适合已经确认方向、想看产品流程、运营方式和服务配合的团队，重点进入演示和流程沟通。
+          - link "先看产品矩阵" [ref=e138] [cursor=pointer]:
+            - /url: ./products.html
+        - article [ref=e139]:
+          - strong [ref=e140]: 入口三
+          - heading "先评估合作与安全要求" [level=3] [ref=e141]
+          - paragraph [ref=e142]: 适合已经进入商务、安全或管理评估阶段的团队，重点确认上线方式、数据安全和协同责任。
+          - link "查看合作模式" [ref=e143] [cursor=pointer]:
+            - /url: ./models.html
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - heading "首次沟通建议按这 4 步推进" [level=2] [ref=e147]
+        - paragraph [ref=e148]: 这样既不会把问题聊散，也能让业务、商务和服务沟通更快收敛到同一套信息结构里。
+      - generic [ref=e150]:
+        - article [ref=e151]:
+          - generic [ref=e152]: "01"
+          - heading "先说当前阶段" [level=3] [ref=e153]
+          - paragraph [ref=e154]: 是启动期、验证期、扩张期，还是已经进入更正式的组织评估阶段。
+        - article [ref=e155]:
+          - generic [ref=e156]: "02"
+          - heading "再说核心目标" [level=3] [ref=e157]
+          - paragraph [ref=e158]: 是拉新、复购、会员沉淀、渠道协同，还是工具配合、数据安全与团队协作问题。
+        - article [ref=e159]:
+          - generic [ref=e160]: "03"
+          - heading "确认关键约束" [level=3] [ref=e161]
+          - paragraph [ref=e162]: 如预算周期、上线节奏、安全要求、资金流转或是否需要多部门一起决策。
+        - article [ref=e163]:
+          - generic [ref=e164]: "04"
+          - heading "收束到下一步" [level=3] [ref=e165]
+          - paragraph [ref=e166]: 确定是继续看方案、安排演示、进入商务讨论，还是先补齐内部准备条件。
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - heading "常见问题与沟通边界" [level=2] [ref=e170]
+        - paragraph [ref=e171]: 提前回答高频问题，减少首次沟通时的重复解释，也让来访者知道应该准备哪些信息。
+      - generic [ref=e173]:
+        - article [ref=e174]:
+          - heading "适合什么阶段的品牌来沟通" [level=3] [ref=e175]
+          - paragraph [ref=e176]: 从刚开始验证路径到已经进入商务和组织评审阶段都可以，但目标不同，沟通重点也会不同。
+        - article [ref=e177]:
+          - heading "首次沟通要准备哪些信息" [level=3] [ref=e178]
+          - paragraph [ref=e179]: 至少建议准备行业、渠道结构、当前目标、已有系统和最想先解决的问题，这样判断更快。
+        - article [ref=e180]:
+          - heading "一上来就需要看产品演示吗" [level=3] [ref=e181]
+          - paragraph [ref=e182]: 不一定。如果方向和组织边界都还没判断清楚，先看演示反而会把沟通带偏。
+        - article [ref=e183]:
+          - heading "商务、运营和安全相关同事需要一起参与吗" [level=3] [ref=e184]
+          - paragraph [ref=e185]: 如果已经涉及上线方式、数据安全、资金流程或多部门协同，建议尽早把相关角色拉进同一轮沟通。
+        - article [ref=e186]:
+          - heading "咨询信息如何进入正式流程" [level=3] [ref=e187]
+          - paragraph [ref=e188]: 咨询信息会围绕方案沟通、演示安排、合作评估与线索分发等环节统一承接，便于团队高效推进。
+        - article [ref=e189]:
+          - heading "如果还没想好合作模式怎么办" [level=3] [ref=e190]
+          - paragraph [ref=e191]: 没关系。我们会先判断你现在适合继续看方案、产品，还是先进入合作方式评估。
+    - generic [ref=e195]:
+      - generic [ref=e196]: 下一步
+      - heading "如果你已经知道当前要解决什么问题，下一步就可以进入更具体的沟通。" [level=2] [ref=e197]
+      - paragraph [ref=e198]: 你可以直接预约演示、评估合作方式，或带着业务背景与推进要求进入正式沟通。
+      - generic [ref=e199]:
+        - article [ref=e200]:
+          - heading "预约一次正式沟通" [level=3] [ref=e201]
+          - paragraph [ref=e202]: 适合已经准备好业务背景和当前目标，希望更快进入针对性判断与方案建议的团队。
+          - link "提交咨询信息" [ref=e203] [cursor=pointer]:
+            - /url: "#contact-intake"
+        - article [ref=e204]:
+          - heading "先补齐判断材料" [level=3] [ref=e205]
+          - paragraph [ref=e206]: 如果你还需要内部统一思路，可以先回看解决方案、合作模式或安全合规页，再带着明确问题来聊。
+          - link "查看安全合规" [ref=e207] [cursor=pointer]:
+            - /url: ./security.html
+  - contentinfo [ref=e208]:
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - link "呐客科技首页" [ref=e212] [cursor=pointer]:
+            - /url: ./index.html
+            - generic [ref=e214]:
+              - strong [ref=e215]: 呐客科技
+              - generic [ref=e216]: 扫码入口与私域增长
+          - paragraph [ref=e217]: 以一物一码为用户入口，连接扫码互动、私域沉淀与复购经营，帮助消费品牌建立长期可控的用户资产。
+          - generic [ref=e218]:
+            - generic [ref=e219]: 品牌用户增长方案
+            - generic [ref=e220]: 支持演示预约与方案咨询
+            - generic [ref=e221]: 适合消费品牌与零售业务
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - strong [ref=e224]: 核心页面
+            - generic [ref=e225]:
+              - link "首页" [ref=e226] [cursor=pointer]:
+                - /url: ./index.html
+              - link "解决方案" [ref=e227] [cursor=pointer]:
+                - /url: ./solution.html
+              - link "产品能力" [ref=e228] [cursor=pointer]:
+                - /url: ./products.html
+          - generic [ref=e229]:
+            - strong [ref=e230]: 场景与信任
+            - generic [ref=e231]:
+              - link "行业场景" [ref=e232] [cursor=pointer]:
+                - /url: ./industries.html
+              - link "客户案例" [ref=e233] [cursor=pointer]:
+                - /url: ./cases.html
+              - link "安全合规" [ref=e234] [cursor=pointer]:
+                - /url: ./security.html
+          - generic [ref=e235]:
+            - strong [ref=e236]: 合作与咨询
+            - generic [ref=e237]:
+              - link "合作方式" [ref=e238] [cursor=pointer]:
+                - /url: ./models.html
+              - link "联系咨询" [ref=e239] [cursor=pointer]:
+                - /url: ./contact.html
+              - generic [ref=e240]: 支持方案咨询、演示预约与合作评估
+          - generic [ref=e241]:
+            - strong [ref=e242]: 联系信息
+            - generic [ref=e243]:
+              - generic [ref=e244]: 公司主体：呐客（杭州）科技有限公司
+              - generic [ref=e245]: 商务咨询：400-820-2026
+              - generic [ref=e246]: 服务时间：工作日 9:30 - 18:30
+              - generic [ref=e247]: 公司地址：浙江省杭州市余杭区
+      - generic [ref=e248]:
+        - paragraph [ref=e249]: 聚焦扫码入口、私域沉淀与复购增长，帮助品牌建立长期可控的用户资产。
+        - paragraph [ref=e250]: 版权所有 © 2026 呐客（杭州）科技有限公司
+        - paragraph [ref=e251]: 浙ICP备2024012345号-1
+        - paragraph [ref=e252]: 浙公网安备33011002001234号

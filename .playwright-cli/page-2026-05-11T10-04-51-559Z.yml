@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - generic [ref=e8]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: index.html
+        - img [ref=e12]
+      - navigation [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "首页" [ref=e18] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e19]:
+            - link "产品介绍" [ref=e20] [cursor=pointer]:
+              - /url: product.html
+          - listitem [ref=e21]:
+            - link "典型案例" [ref=e22] [cursor=pointer]:
+              - /url: classic-case.html
+          - listitem [ref=e23]:
+            - link "关于我们" [ref=e24] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=e25]:
+            - link "联系我们" [ref=e26] [cursor=pointer]:
+              - /url: contact.html
+      - generic [ref=e27]:
+        - list:
+          - listitem: 
+          - text: 
+  - complementary [ref=e28]:
+    - link "" [ref=e30] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - generic [ref=e31]: 
+    - generic [ref=e32]:
+      - link "logo" [ref=e34] [cursor=pointer]:
+        - /url: index.html
+        - img "logo" [ref=e35]
+      - generic [ref=e37]:
+        - heading "关于我们" [level=4] [ref=e38]
+        - paragraph [ref=e39]: 提供专业领先的DTC、SCRM产品SaaS服务，以及基于全域小程序营销、策划、开发的一站式服务
+        - link "联系我们" [ref=e40] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=e42]:
+        - heading "联系信息" [level=4] [ref=e43]
+        - paragraph [ref=e44]:
+          - generic [ref=e45]: 
+          - text: 上海市徐汇区漕溪北路45号上海航空科技大厦1802室
+        - paragraph [ref=e46]:
+          - generic [ref=e47]: 
+          - text: +86 13816098349
+        - paragraph [ref=e48]:
+          - generic [ref=e49]: 
+          - text: pm@goldisv.com
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "面向品牌自主私域电商(DTC)需求的创新一站式服务" [level=1] [ref=e54]
+          - heading "提升DTC业务的渗透力与复购表现" [level=1] [ref=e55]
+        - generic [ref=e58]:
+          - generic [ref=e59]: 得效团队深耕DTC创新8+年，已为200+消费企业品牌DTC提供创新解决方案，成功交付并运行超过1,500+个项目；从创新模式设计到转型与增长方案落地的全过程服务。
+          - list [ref=e60]:
+            - listitem [ref=e61]:
+              - link "立即体验 " [ref=e62] [cursor=pointer]:
+                - /url: https://www.dtcpluscrm.com/tomato/#/
+                - text: 立即体验
+                - generic [ref=e63]: 
+      - img "image" [ref=e65]
+      - img [ref=e66]
+    - generic [ref=e71]:
+      - generic [ref=e74]:
+        - heading "从经营商品到经营用户价值的新模式" [level=2] [ref=e75]
+        - heading "品牌DTC(Direct to Customer/直接面向消费者）就是从经营用户价值视角出发的产品、营销和零售创新模式，提升了品牌终端渗透力和社交复购表现，从而实现品牌私域电商业务的增长与营销效率的优化提升。" [level=5] [ref=e76]
+      - link "了解更多 " [ref=e80] [cursor=pointer]:
+        - /url: contact.html
+        - text: 了解更多
+        - generic [ref=e81]: 
+    - link "了解更多 " [ref=e91] [cursor=pointer]:
+      - /url: contact.html
+      - text: 了解更多
+      - generic [ref=e92]: 
+    - link "了解更多 " [ref=e97] [cursor=pointer]:
+      - /url: contact.html
+      - text: 了解更多
+      - generic [ref=e98]: 
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - heading "3大DTC新模式成功实现突破性增长" [level=2] [ref=e103]
+        - heading "契合实际行业需求，以目标客群视角建立创新的“产品-营销-零售”全链路模式，并在此过程中实现直接触达目标客群，并高效转化消费者" [level=5] [ref=e104]
+      - generic [ref=e105]:
+        - tablist [ref=e106]:
+          - tab "全渠道零售商转型" [selected] [ref=e107] [cursor=pointer]:
+            - emphasis [ref=e108]: 
+            - text: 全渠道零售商转型
+          - tab " 会员电商创新" [ref=e109] [cursor=pointer]:
+            - generic [ref=e110]: 
+            - text: 会员电商创新
+          - tab "社交电商创新" [ref=e111] [cursor=pointer]:
+            - generic [ref=e112]: 
+            - text: 社交电商创新
+        - generic [ref=e113]:
+          - tabpanel "全渠道零售商转型" [ref=e114]:
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - heading "构建 “全渠道零售” 而不只是所谓的“渠道全”" [level=2] [ref=e119]
+                - list [ref=e120]:
+                  - listitem [ref=e121]: 满足跨渠道个性化消费求
+                  - listitem [ref=e122]: 获取用户洞察支持业务决策
+                  - listitem [ref=e123]: 提高供应链小类快速推出新品
+              - link "了解更多 " [ref=e124] [cursor=pointer]:
+                - /url: contact.html
+                - text: 了解更多
+                - generic [ref=e125]: 
+          - text:   
+    - generic [ref=e128]:
+      - generic [ref=e131]:
+        - heading "低风险且高效率地推进品牌DTC业务创新/转型" [level=2] [ref=e132]
+        - heading [level=5]
+        - heading "敏捷项目敏捷迭代：从0到N快速建立DTC业务并输出可见的价值，从而避免大项目大计划导致大风险大失败" [level=5] [ref=e133]
+      - generic [ref=e135]:
+        - generic [ref=e137]:
+          - generic [ref=e139]: 
+          - heading "DTC创新构想" [level=4] [ref=e140]
+          - paragraph [ref=e141]: 对齐企业的战略目标，根据企业品牌量身定做DTC创新方案
+          - link "" [ref=e142] [cursor=pointer]:
+            - /url: about.html
+            - generic [ref=e143]: 
+        - generic [ref=e145]:
+          - generic [ref=e147]: 
+          - heading "方案MVP验证" [level=4] [ref=e148]
+          - paragraph [ref=e149]: 快速输出满足核心需求的产品方案，投放到市场中验证
+          - link "" [ref=e150] [cursor=pointer]:
+            - /url: about.html
+            - generic [ref=e151]: 
+        - generic [ref=e153]:
+          - generic [ref=e155]: 
+          - heading "实现0到1价值" [level=4] [ref=e156]
+          - paragraph [ref=e157]: 根据市场反馈，持续迭代更新，实现运营衡量
+          - link "" [ref=e158] [cursor=pointer]:
+            - /url: about.html
+            - generic [ref=e159]: 
+        - generic [ref=e161]:
+          - generic [ref=e163]: 
+          - heading "DTC规模增长" [level=4] [ref=e164]
+          - paragraph [ref=e165]: 赋能企业DTC创新工具,构建持续创新能力，实现增长目标
+          - link "" [ref=e166] [cursor=pointer]:
+            - /url: about.html
+            - generic [ref=e167]: 
+    - generic [ref=e169]:
+      - generic [ref=e172]:
+        - heading "品牌客户" [level=5] [ref=e173]
+        - heading "260+ 我们的客户" [level=2] [ref=e174]
+      - generic [ref=e177]:
+        - link [ref=e180] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e183] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e186] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e189] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e192] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e195] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e198] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e201] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e204] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e207] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e210] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e213] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e216] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e219] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e222] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e225] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e228] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e231] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e234] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e237] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e240] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e243] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e246] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e249] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e252] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e255] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e258] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e261] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e264] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e267] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e270] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e273] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e276] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e279] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e282] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e285] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e288] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e291] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e294] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e297] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e300] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e303] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e306] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e309] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e312] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e315] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e318] [cursor=pointer]:
+          - /url: about.html
+        - link [ref=e321] [cursor=pointer]:
+          - /url: about.html
+  - contentinfo [ref=e322]:
+    - generic [ref=e323]:
+      - generic [ref=e325]:
+        - link [ref=e326] [cursor=pointer]:
+          - /url: index.html
+        - link "首页" [ref=e327] [cursor=pointer]:
+          - /url: index.html
+        - link "产品介绍" [ref=e328] [cursor=pointer]:
+          - /url: product.html
+        - link "典型案例" [ref=e329] [cursor=pointer]:
+          - /url: classic-case.html
+        - link "关于我们" [ref=e330] [cursor=pointer]:
+          - /url: about.html
+        - link "联系我们" [ref=e331] [cursor=pointer]:
+          - /url: contact.html
+        - textbox "您的称呼" [ref=e332]
+        - textbox "邮箱" [ref=e333]
+        - textbox "手机号码" [ref=e334]
+        - textbox "标题" [ref=e335]
+        - textbox "内容" [ref=e336]
+        - button "发送消息 " [ref=e337] [cursor=pointer]:
+          - text: 发送消息
+          - generic [ref=e338]: 
+        - link " BD@dtcpluscrm.com" [ref=e339] [cursor=pointer]:
+          - /url: mailto:BD@dtcpluscrm.com
+          - emphasis [ref=e341]: 
+          - text: BD@dtcpluscrm.com
+        - link " 上海徐汇区漕溪北路45号" [ref=e342] [cursor=pointer]:
+          - /url: about.html
+          - generic [ref=e344]: 
+          - text: 上海徐汇区漕溪北路45号
+      - generic [ref=e346]:
+        - paragraph [ref=e349]: © 2022 得效（上海）数字科技有限公司 All rights reserved.
+        - paragraph [ref=e352]:
+          - link "沪ICP备2022011647号-1" [ref=e353] [cursor=pointer]:
+            - /url: https://beian.miit.gov.cn/
+  - text: 

@@ -1,0 +1,128 @@
+.site-footer {
+    margin-top: 88px;
+    padding: 28px 0 22px;
+    background:
+        radial-gradient(circle at 12% 0%, rgba(243, 188, 82, 0.14), transparent 22%),
+        linear-gradient(180deg, #6b3f2d 0%, #573225 100%);
+    color: #fff7ef;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-shell {
+    width: min(calc(100% - 32px), 1240px);
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 32px;
+    padding: 28px 0 32px;
+}
+
+.footer-brand {
+    p {
+        max-width: 520px;
+        margin-top: 18px;
+        color: rgba(255, 247, 239, 0.78);
+        font-size: 15px;
+        line-height: 1.85;
+    }
+}
+
+.footer-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 0 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 247, 239, 0.92);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 24px;
+}
+
+.footer-group {
+    strong {
+        display: block;
+        margin-bottom: 14px;
+        color: #ffd7a2;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+    }
+}
+
+.footer-links {
+    display: grid;
+    gap: 10px;
+
+    a,
+    span {
+        color: rgba(255, 247, 239, 0.76);
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    a:hover {
+        color: #fff7ef;
+    }
+}
+
+.footer-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    p {
+        color: rgba(255, 247, 239, 0.66);
+        font-size: 13px;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 960px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-nav {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .site-footer {
+        margin-top: 72px;
+        padding-top: 20px;
+    }
+
+    .footer-shell {
+        width: min(calc(100% - 24px), 1240px);
+    }
+
+    .footer-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-meta {
+        display: grid;
+        gap: 6px;
+    }
+}

@@ -1,0 +1,16 @@
+[     299ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/index.6b80c.js:11069
+[     303ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/index.6b80c.js:12729
+[  749634ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/index.6b80c.js:11069
+[  751976ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/index.6b80c.js:11069
+[  751977ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/index.6b80c.js:12729
+[  752016ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.79178.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[  752020ms] [LOG] [HMR] Updated modules: @ http://localhost:9100/js/index.6b80c.js:12729
+[  752020ms] [LOG] [HMR]  - ./src/pages/index/index.less @ http://localhost:9100/js/index.6b80c.js:12729
+[  752020ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/index.6b80c.js:12729
+[  752023ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.79178.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[  752071ms] [LOG] [HMR] Reload all css @ http://localhost:9100/js/index.6b80c.js:10026
+[  752077ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/index.79178.css?1778501921668' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/index.html:0
+[49866509ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.6b80c.js:11069
+[49866526ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.6b80c.js:11069
+[49994007ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/index.6b80c.js:11069
+[49994009ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/index.6b80c.js:11069

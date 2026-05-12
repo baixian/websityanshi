@@ -1,0 +1,14 @@
+[     384ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/js/flickity.min.js:0
+[     413ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Bold.woff2:0
+[     413ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Book.woff2:0
+[     413ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Medium.woff2:0
+[     422ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/img/feature/02.png:0
+[     425ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Black.woff2:0
+[     433ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Bold.woff:0
+[     438ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Medium.woff:0
+[     438ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Book.woff:0
+[     452ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Bold.ttf:0
+[     452ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Black.woff:0
+[     462ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Medium.ttf:0
+[     462ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Book.ttf:0
+[     479ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.dtcpluscrm.com/assets/font/CircularStd-Black.ttf:0

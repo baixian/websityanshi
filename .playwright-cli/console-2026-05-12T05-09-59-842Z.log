@@ -1,0 +1,9 @@
+[    1771ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/contact.738f3.js:11069
+[    1771ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/contact.738f3.js:12729
+[  487883ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/contact.738f3.js:11069
+[  498209ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/contact.738f3.js:11069
+[  498210ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/contact.738f3.js:12729
+[  498478ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/contact.4dbdb.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/contact.html:0
+[  498480ms] [LOG] [HMR] Nothing hot updated. @ http://localhost:9100/js/contact.738f3.js:12729
+[  498480ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/contact.738f3.js:12729
+[  498499ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/contact.4dbdb.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/contact.html:0

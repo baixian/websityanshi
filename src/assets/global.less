@@ -1,0 +1,48 @@
+@import './variable.less';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    line-height: 1.65;
+    color: @text-color;
+    background:
+        radial-gradient(circle at top left, rgba(243, 188, 82, 0.18), transparent 28%),
+        radial-gradient(circle at 85% 12%, rgba(242, 106, 46, 0.14), transparent 24%),
+        linear-gradient(180deg, #fffaf3 0%, @canvas-color 42%, #fff4e8 100%);
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+    background-size: 4px 4px, 5px 5px;
+    mix-blend-mode: multiply;
+}
+
+body.mobile-nav-open {
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}

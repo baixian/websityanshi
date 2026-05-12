@@ -1,0 +1,334 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "呐客科技首页" [ref=e4] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e6]:
+          - strong [ref=e7]: 呐客科技
+          - generic [ref=e8]: 一物一码与智能私域增长
+      - navigation "主导航" [ref=e9]:
+        - link "首页" [ref=e10] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e11] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品能力" [ref=e12] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e13] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e14] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e15] [cursor=pointer]:
+          - /url: ./models.html
+        - link "技术合规" [ref=e16] [cursor=pointer]:
+          - /url: ./security.html
+        - link "联系咨询" [ref=e17] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: 一物一码 + 智能私域运营
+        - heading "破解公域流量困局，建立品牌可控用户资产。" [level=1] [ref=e23]
+        - paragraph [ref=e24]: 以一物一码连接线下扫码、私域沉淀、自动化运营与复购转化，把一次交易关系升级成可持续复用的品牌经营系统。
+        - generic [ref=e25]:
+          - link "预约演示" [ref=e26] [cursor=pointer]:
+            - /url: ./contact.html
+          - link "了解方案价值" [ref=e27] [cursor=pointer]:
+            - /url: "#overview"
+        - generic [ref=e28]:
+          - generic [ref=e29]: •真实消费场景优先
+          - generic [ref=e30]: •私域与自动化协同运营
+          - generic [ref=e31]: •从扫码到复购的完整闭环
+        - generic [ref=e32]:
+          - article [ref=e33]:
+            - strong [ref=e34]: 业务判断
+            - generic [ref=e35]: 快速看清这套方案解决什么问题、适合哪些品牌、如何进入落地沟通。
+          - article [ref=e36]:
+            - strong [ref=e37]: 6 类内容
+            - generic [ref=e38]: 方案、产品、行业、案例、合作与安全合规分别展开，方便不同角色快速判断。
+          - article [ref=e39]:
+            - strong [ref=e40]: 4 个角色
+            - generic [ref=e41]: 市场、渠道、运营、技术与合规团队都能找到对应关注点，减少内部反复沟通。
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - strong [ref=e44]: 线下入口
+          - paragraph [ref=e45]: 让门店、货架、包装和扫码动作成为品牌连接消费者的第一触点。
+        - text: 扫码入口
+        - generic [ref=e46]:
+          - generic [ref=e47]: 扫码入口
+          - strong [ref=e48]: 线下扫码触达
+        - generic [ref=e49]:
+          - generic [ref=e50]: 用户沉淀
+          - strong [ref=e51]: 会员识别与分层
+        - generic [ref=e52]:
+          - generic [ref=e53]: 智能运营
+          - strong [ref=e54]: 自动化触达与复购
+        - generic [ref=e55]:
+          - strong [ref=e56]: 经营信号
+          - generic [ref=e57]: 扫码入口、会员识别与自动化触达共同运转，把交易现场接入品牌长期经营体系。
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]: 服务可信依据
+        - heading "正式沟通前，先把业务价值、实施边界和风险问题说清楚。" [level=2] [ref=e63]
+        - paragraph [ref=e64]: 品牌方真正关心的不是“能不能做一个扫码活动”，而是这套能力能不能进入现有渠道、系统和组织流程，并且在上线后持续产生可复用的用户资产。
+      - generic [ref=e65]:
+        - article [ref=e66]:
+          - strong [ref=e67]: 业务闭环
+          - paragraph [ref=e68]: 从线下扫码入口到会员沉淀、私域触达、复购召回，先确认每一段是否能接上品牌现有业务。
+        - article [ref=e69]:
+          - strong [ref=e70]: 实施边界
+          - paragraph [ref=e71]: 围绕标准平台、独立部署和联合增长三种合作方式，提前厘清系统接入、权限和协作责任。
+        - article [ref=e72]:
+          - strong [ref=e73]: 安全合规
+          - paragraph [ref=e74]: 把数据归属、资金链路、审计留痕和系统可靠性放到同一套评估框架里，方便多部门共同判断。
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]: 关于呐客科技
+        - heading "呐客（杭州）科技有限公司，聚焦消费品牌的一物一码与私域增长服务。" [level=2] [ref=e80]
+        - paragraph [ref=e81]: 我们围绕线下扫码入口、会员沉淀、活动运营、复购转化和数据合规，帮助品牌把一次交易之后的用户关系继续经营下去。
+        - generic [ref=e82]:
+          - generic [ref=e83]: 消费品牌增长
+          - generic [ref=e84]: 一物一码入口
+          - generic [ref=e85]: 私域与复购运营
+      - generic [ref=e86]:
+        - article [ref=e87]:
+          - generic [ref=e88]: "01"
+          - heading "从业务现场出发" [level=3] [ref=e89]
+          - paragraph [ref=e90]: 先看产品包装、门店陈列、渠道活动和用户扫码路径，再判断系统能力该如何进入真实经营场景。
+        - article [ref=e91]:
+          - generic [ref=e92]: "02"
+          - heading "把系统和运营接起来" [level=3] [ref=e93]
+          - paragraph [ref=e94]: 不把一物一码、营销活动、会员私域和数据分析拆成孤立模块，而是围绕增长闭环一起设计。
+        - article [ref=e95]:
+          - generic [ref=e96]: "03"
+          - heading "让评估更容易推进" [level=3] [ref=e97]
+          - paragraph [ref=e98]: 把合作模式、权限边界、资金链路和上线节奏提前讲清楚，让业务、技术和合规团队更快形成共识。
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "从一次扫码开始，把线下交易接成长期用户经营。" [level=2] [ref=e102]
+        - paragraph [ref=e103]: 品牌负责人、市场团队和渠道决策者可以从业务目标出发，判断扫码入口、会员沉淀、私域运营和复购转化如何协同落地。
+      - generic [ref=e105]:
+        - article [ref=e106]:
+          - generic [ref=e107]: 增长主线
+          - heading "先建立品牌可控入口，再把用户关系、运营动作和复购结果沉淀下来。" [level=3] [ref=e108]
+          - paragraph [ref=e109]: 如果你已经明确要看方案细节、产品模块、行业打法、案例结果、合作方式或安全要求，可以直接进入对应内容；如果还在判断阶段，可以先从业务目标开始确认。
+        - generic [ref=e110]:
+          - article [ref=e111]:
+            - strong [ref=e112]: 先理解价值
+            - paragraph [ref=e113]: 用一句话看清这套方案如何把一次扫码关系变成长期可经营用户资产。
+          - article [ref=e114]:
+            - strong [ref=e115]: 再定位入口
+            - paragraph [ref=e116]: 围绕方案、产品、行业、案例和安全要求选择阅读路径，让不同角色更快找到重点。
+          - article [ref=e117]:
+            - strong [ref=e118]: 最后进入沟通
+            - paragraph [ref=e119]: 通过底部表单或联系页提交行业、渠道和目标，进入更具体的演示或方案交流。
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - heading "按你的关注点进入下一步判断" [level=2] [ref=e123]
+        - paragraph [ref=e124]: 不同团队关心的问题不一样，先选最接近当前任务的方向，再深入看方案、能力、场景和合作边界。
+      - generic [ref=e125]:
+        - link "建议先看 解决方案 适合先理解业务闭环、核心价值和整体落地逻辑。 进入方案页" [ref=e126] [cursor=pointer]:
+          - /url: ./solution.html
+          - generic [ref=e127]: 建议先看
+          - heading "解决方案" [level=3] [ref=e128]
+          - paragraph [ref=e129]: 适合先理解业务闭环、核心价值和整体落地逻辑。
+          - generic [ref=e130]: 进入方案页
+        - link "能力结构 产品能力 查看一物一码、活动、用户运营和分析自动化等模块如何配合。 进入产品页" [ref=e131] [cursor=pointer]:
+          - /url: ./products.html
+          - generic [ref=e132]: 能力结构
+          - heading "产品能力" [level=3] [ref=e133]
+          - paragraph [ref=e134]: 查看一物一码、活动、用户运营和分析自动化等模块如何配合。
+          - generic [ref=e135]: 进入产品页
+        - link "场景匹配 行业场景 按饮料、快消、食品、日化等不同终端与渠道节奏判断适配度。 进入行业页" [ref=e136] [cursor=pointer]:
+          - /url: ./industries.html
+          - generic [ref=e137]: 场景匹配
+          - heading "行业场景" [level=3] [ref=e138]
+          - paragraph [ref=e139]: 按饮料、快消、食品、日化等不同终端与渠道节奏判断适配度。
+          - generic [ref=e140]: 进入行业页
+        - link "结果参考 案例参考 看真实项目如何把扫码活动、用户沉淀与后续运营连接起来。 进入案例页" [ref=e141] [cursor=pointer]:
+          - /url: ./cases.html
+          - generic [ref=e142]: 结果参考
+          - heading "案例参考" [level=3] [ref=e143]
+          - paragraph [ref=e144]: 看真实项目如何把扫码活动、用户沉淀与后续运营连接起来。
+          - generic [ref=e145]: 进入案例页
+        - link "合作方式 合作模式 判断标准平台、独立部署或系统与运营协同哪一种更适合当前阶段。 进入模式页" [ref=e146] [cursor=pointer]:
+          - /url: ./models.html
+          - generic [ref=e147]: 合作方式
+          - heading "合作模式" [level=3] [ref=e148]
+          - paragraph [ref=e149]: 判断标准平台、独立部署或系统与运营协同哪一种更适合当前阶段。
+          - generic [ref=e150]: 进入模式页
+        - link "风控与合规 安全保障 集中查看数据边界、权限审计、资金管理与系统稳定性相关信息。 进入安全页" [ref=e151] [cursor=pointer]:
+          - /url: ./security.html
+          - generic [ref=e152]: 风控与合规
+          - heading "安全保障" [level=3] [ref=e153]
+          - paragraph [ref=e154]: 集中查看数据边界、权限审计、资金管理与系统稳定性相关信息。
+          - generic [ref=e155]: 进入安全页
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - heading "如果你正在判断是否适合现在推进" [level=2] [ref=e159]
+        - paragraph [ref=e160]: 以下特征可以帮助你判断，现阶段是否值得进一步展开方案沟通和落地评估。
+      - generic [ref=e162]:
+        - article [ref=e163]:
+          - strong [ref=e164]: 更适合现在推进的品牌
+          - list [ref=e165]:
+            - listitem [ref=e166]: 线下销量稳定，但品牌仍缺少可持续触达与复购经营能力。
+            - listitem [ref=e167]: 已经在做扫码活动，但活动结束后用户和数据难以继续复用。
+            - listitem [ref=e168]: 希望把渠道、导购、私域和自动化运营放进同一套经营链路。
+        - article [ref=e169]:
+          - strong [ref=e170]: 建议重点关注的内容
+          - list [ref=e171]:
+            - listitem [ref=e172]: "先看 `解决方案`：判断经营逻辑是否成立。"
+            - listitem [ref=e173]: "再看 `产品能力`：确认模块边界与实施方式。"
+            - listitem [ref=e174]: "补看 `案例参考`、`合作模式`、`安全保障`：完成采购与决策评估。"
+        - article [ref=e175]:
+          - strong [ref=e176]: 适合直接发起沟通的情况
+          - list [ref=e177]:
+            - listitem [ref=e178]: 已经有具体行业、渠道或活动周期，希望快速评估落地难度。
+            - listitem [ref=e179]: 对数据归属、部署模式或内部系统协同有明确要求。
+            - listitem [ref=e180]: 需要销售演示页、投前沟通材料或方案共创支持。
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - heading "从目标判断到落地推进，沟通节奏更清晰" [level=2] [ref=e184]
+        - paragraph [ref=e185]: 先把业务目标、渠道结构和数据边界对齐，再进入方案演示、合作模式确认和上线计划。
+      - generic [ref=e186]:
+        - article [ref=e187]:
+          - generic [ref=e188]: "01"
+          - heading "先判断目标" [level=3] [ref=e189]
+          - paragraph [ref=e190]: 明确是拉新、沉淀、复购、渠道协同，还是一次营销活动后的长期经营问题。
+        - article [ref=e191]:
+          - generic [ref=e192]: "02"
+          - heading "再对齐方向" [level=3] [ref=e193]
+          - paragraph [ref=e194]: 围绕方案能力、行业场景、案例结果和安全边界形成共识，减少跨团队反复解释。
+        - article [ref=e195]:
+          - generic [ref=e196]: "03"
+          - heading "进入方案讨论" [level=3] [ref=e197]
+          - paragraph [ref=e198]: 围绕行业、渠道、预算、系统边界和上线节奏开展更具体的演示或评估。
+        - article [ref=e199]:
+          - generic [ref=e200]: "04"
+          - heading "确定合作路径" [level=3] [ref=e201]
+          - paragraph [ref=e202]: 根据品牌阶段选择标准平台、独立部署或系统加运营协同方式推进落地。
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - generic [ref=e208]: 快速判断
+        - heading "常见问题，先从关键判断开始。" [level=2] [ref=e209]
+        - paragraph [ref=e210]: 围绕业务逻辑、合作方式、数据风控和沟通入口，快速找到当前最需要确认的内容。
+      - generic [ref=e211]:
+        - article [ref=e212]:
+          - heading "想先看完整业务逻辑？" [level=3] [ref=e213]
+          - paragraph [ref=e214]:
+            - text: 进入
+            - link "解决方案页" [ref=e215] [cursor=pointer]:
+              - /url: ./solution.html
+            - text: ，看这套增长链路如何从扫码入口走向长期经营。
+        - article [ref=e216]:
+          - heading "想判断部署和合作方式？" [level=3] [ref=e217]
+          - paragraph [ref=e218]:
+            - text: 进入
+            - link "合作模式页" [ref=e219] [cursor=pointer]:
+              - /url: ./models.html
+            - text: ，确认适合快速上线、独立部署还是协同运营。
+        - article [ref=e220]:
+          - heading "想确认数据与风控要求？" [level=3] [ref=e221]
+          - paragraph [ref=e222]:
+            - text: 进入
+            - link "安全保障页" [ref=e223] [cursor=pointer]:
+              - /url: ./security.html
+            - text: ，查看权限、审计、资金和系统稳定性说明。
+        - article [ref=e224]:
+          - heading "已经想开始沟通？" [level=3] [ref=e225]
+          - paragraph [ref=e226]:
+            - text: 直接下滑到表单，或进入
+            - link "联系咨询" [ref=e227] [cursor=pointer]:
+              - /url: ./contact.html
+            - text: 提交更完整的业务信息。
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - generic [ref=e233]: 预约演示 / 获取方案
+        - heading "把你的行业、渠道和增长目标告诉我们。" [level=2] [ref=e234]
+        - paragraph [ref=e235]: 我们会根据品牌阶段、业务模式和数据要求，给出更匹配的合作建议。
+        - generic [ref=e236]:
+          - strong [ref=e237]: 提交前可以先准备
+          - generic [ref=e238]:
+            - generic [ref=e239]: 当前行业与渠道结构
+            - generic [ref=e240]: 优先解决的增长目标
+            - generic [ref=e241]: 已有会员或私域基础
+            - generic [ref=e242]: 上线周期与系统要求
+        - list [ref=e243]:
+          - listitem [ref=e244]: 适合品牌市场、渠道运营和数字化团队发起首次沟通。
+          - listitem [ref=e245]: 字段保持精简，只收集进入方案判断所需的关键信息。
+      - generic [ref=e246]:
+        - generic [ref=e247]:
+          - generic [ref=e248]: 公司名称
+          - textbox "公司名称" [ref=e249]:
+            - /placeholder: 如：某饮料品牌事业部
+          - paragraph [ref=e250]
+        - generic [ref=e251]:
+          - generic [ref=e252]: 联系人
+          - textbox "联系人" [ref=e253]:
+            - /placeholder: 请输入姓名或岗位
+          - paragraph [ref=e254]
+        - generic [ref=e255]:
+          - generic [ref=e256]: 手机号
+          - textbox "手机号" [ref=e257]:
+            - /placeholder: 请输入可联系手机号
+          - paragraph [ref=e258]
+        - generic [ref=e259]:
+          - generic [ref=e260]: 当前需求
+          - textbox "当前需求" [ref=e261]:
+            - /placeholder: 如：希望搭建扫码会员沉淀与复购运营方案
+          - paragraph [ref=e262]
+        - button "提交咨询" [ref=e263] [cursor=pointer]
+        - paragraph [ref=e264]
+        - paragraph [ref=e265]: 提交后，我们会根据你填写的业务信息安排顾问跟进。
+  - contentinfo [ref=e266]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - link "呐客科技首页" [ref=e270] [cursor=pointer]:
+            - /url: ./index.html
+            - generic [ref=e272]:
+              - strong [ref=e273]: 呐客科技
+              - generic [ref=e274]: 一物一码与智能私域增长
+          - paragraph [ref=e275]: 以一物一码为用户入口，连接扫码互动、私域沉淀、自动化运营与复购转化，帮助消费品牌建立长期可控的用户资产。
+          - generic [ref=e276]:
+            - generic [ref=e277]: 品牌用户增长方案
+            - generic [ref=e278]: 支持演示预约与方案咨询
+            - generic [ref=e279]: 适合消费品牌与零售业务
+        - generic [ref=e280]:
+          - generic [ref=e281]:
+            - strong [ref=e282]: 核心页面
+            - generic [ref=e283]:
+              - link "首页" [ref=e284] [cursor=pointer]:
+                - /url: ./index.html
+              - link "解决方案" [ref=e285] [cursor=pointer]:
+                - /url: ./solution.html
+              - link "产品能力" [ref=e286] [cursor=pointer]:
+                - /url: ./products.html
+          - generic [ref=e287]:
+            - strong [ref=e288]: 场景与信任
+            - generic [ref=e289]:
+              - link "行业场景" [ref=e290] [cursor=pointer]:
+                - /url: ./industries.html
+              - link "客户案例" [ref=e291] [cursor=pointer]:
+                - /url: ./cases.html
+              - link "技术合规" [ref=e292] [cursor=pointer]:
+                - /url: ./security.html
+          - generic [ref=e293]:
+            - strong [ref=e294]: 合作与咨询
+            - generic [ref=e295]:
+              - link "合作方式" [ref=e296] [cursor=pointer]:
+                - /url: ./models.html
+              - link "联系咨询" [ref=e297] [cursor=pointer]:
+                - /url: ./contact.html
+              - generic [ref=e298]: 支持方案咨询、演示预约与合作评估
+          - generic [ref=e299]:
+            - strong [ref=e300]: 联系信息
+            - generic [ref=e301]:
+              - generic [ref=e302]: 公司主体：呐客（杭州）科技有限公司
+              - generic [ref=e303]: 商务咨询：400-820-2026
+              - generic [ref=e304]: 服务时间：工作日 9:30 - 18:30
+              - generic [ref=e305]: 公司地址：浙江省杭州市余杭区仓前街道示例路 88 号
+      - generic [ref=e306]:
+        - paragraph [ref=e307]: 聚焦扫码入口、私域沉淀、自动化运营与复购增长，帮助品牌建立长期可控的用户资产。
+        - paragraph [ref=e308]: 版权所有 © 2026 呐客（杭州）科技有限公司
+        - paragraph [ref=e309]: 浙ICP备2024012345号-1
+        - paragraph [ref=e310]: 浙公网安备33011002001234号

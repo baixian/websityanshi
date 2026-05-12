@@ -1,0 +1,15 @@
+[    1023ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/contact.6a029.js:11069
+[    1024ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/contact.6a029.js:12729
+[  393432ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/contact.6a029.js:11069
+[  424202ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/contact.6a029.js:11069
+[  424204ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/contact.6a029.js:12729
+[  424738ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/contact.d6338.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/contact.html:0
+[  424741ms] [LOG] [HMR] Nothing hot updated. @ http://localhost:9100/js/contact.6a029.js:12729
+[  424741ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/contact.6a029.js:12729
+[  424845ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/contact.d6338.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/contact.html:0
+[ 1117947ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/contact.6a029.js:11069
+[ 1117950ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/contact.6a029.js:11069
+[ 1921306ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/contact.6a029.js:11069
+[ 1921340ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/contact.6a029.js:11069
+[ 2176998ms] [INFO] [webpack-dev-server] Disconnected! @ http://localhost:9100/js/contact.6a029.js:11069
+[ 2177004ms] [INFO] [webpack-dev-server] Trying to reconnect... @ http://localhost:9100/js/contact.6a029.js:11069

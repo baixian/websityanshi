@@ -1,0 +1,9 @@
+[     523ms] [INFO] [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled. @ http://localhost:9100/js/contact.39747.js:11069
+[     524ms] [LOG] [HMR] Waiting for update signal from WDS... @ http://localhost:9100/js/contact.39747.js:12729
+[  253980ms] [INFO] [webpack-dev-server] App updated. Recompiling... @ http://localhost:9100/js/contact.39747.js:11069
+[  265507ms] [INFO] [webpack-dev-server] App hot update... @ http://localhost:9100/js/contact.39747.js:11069
+[  265508ms] [LOG] [HMR] Checking for updates on the server... @ http://localhost:9100/js/contact.39747.js:12729
+[  266372ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/contact.e9930.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/contact.html:0
+[  266377ms] [LOG] [HMR] Nothing hot updated. @ http://localhost:9100/js/contact.39747.js:12729
+[  266377ms] [LOG] [HMR] App is up to date. @ http://localhost:9100/js/contact.39747.js:12729
+[  266384ms] [ERROR] Refused to apply style from 'http://localhost:9100/css/contact.e9930.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:9100/contact.html:0

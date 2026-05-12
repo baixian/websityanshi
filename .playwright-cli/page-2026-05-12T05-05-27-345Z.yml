@@ -1,0 +1,319 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "呐客科技首页" [ref=e4] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e6]:
+          - strong [ref=e7]: 呐客科技
+          - generic [ref=e8]: 扫码入口与私域增长
+      - navigation "主导航" [ref=e9]:
+        - link "首页" [ref=e10] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e11] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品能力" [ref=e12] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e13] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e14] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e15] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全合规" [ref=e16] [cursor=pointer]:
+          - /url: ./security.html
+        - link "联系咨询" [ref=e17] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: 安全合规
+        - heading "增长方案能不能进入组织，不只看功能，更要看责任是否清楚、记录是否完整。" [level=1] [ref=e23]
+        - paragraph [ref=e24]: 品牌客户真正关心的是数据谁能看、资金怎么管、异常怎么处理、服务是否稳定。我们把这些问题提前说清楚，让业务推进更有信任基础。
+        - generic [ref=e25]:
+          - link "先看安全关注点" [ref=e26] [cursor=pointer]:
+            - /url: "#security-navigation"
+          - link "查看合作方式" [ref=e27] [cursor=pointer]:
+            - /url: ./models.html
+        - generic [ref=e28]:
+          - generic [ref=e29]: •先讲组织顾虑
+          - generic [ref=e30]: •再讲控制机制
+          - generic [ref=e31]: •最后判断项目如何推进
+        - generic [ref=e32]:
+          - article [ref=e33]:
+            - strong [ref=e34]: 5 个判断面
+            - generic [ref=e35]: 覆盖数据权限、资金安全、对账记录、服务稳定与项目推进五类高频顾虑。
+          - article [ref=e36]:
+            - strong [ref=e37]: 1 套沟通基础
+            - generic [ref=e38]: 帮助业务、财务、信息安全和管理团队在同一套事实基础上判断同一件事。
+          - article [ref=e39]:
+            - strong [ref=e40]: 2 个行动入口
+            - generic [ref=e41]: 继续看合作模式，或直接进入安全合规沟通，缩短评估往返。
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - strong [ref=e45]: 信任底座
+            - paragraph [ref=e46]: 安全与合规不是冷冰冰的条款，而是让增长需求和组织稳态同时成立。
+          - generic [ref=e50]:
+            - generic [ref=e51]: 账号权限
+            - strong [ref=e52]: 数据与角色控制
+          - generic [ref=e53]:
+            - generic [ref=e54]: 资金流转
+            - strong [ref=e55]: 账户与预警管理
+          - generic [ref=e56]:
+            - generic [ref=e57]: 记录留存
+            - strong [ref=e58]: 对账、日志与复盘
+          - generic [ref=e59]:
+            - strong [ref=e60]: 安全保障
+            - generic [ref=e61]: 账号权限、对账记录、异常提醒与协作评审共同呈现，传达稳定、透明与可信。
+        - complementary [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: 信任判断
+            - heading "大客户不会只问“有没有安全能力”，而会问边界是不是清楚、责任是不是明确、异常能不能回溯。" [level=3] [ref=e65]
+            - generic [ref=e66]:
+              - article [ref=e67]:
+                - heading "边界明确" [level=3] [ref=e68]
+                - paragraph [ref=e69]: 谁能看、谁能配、谁能导出、谁能审批，都要有清楚结构而不是口头约定。
+              - article [ref=e70]:
+                - heading "记录可追" [level=3] [ref=e71]
+                - paragraph [ref=e72]: 资金、操作、提醒和恢复都要能回到完整记录，而不是靠人工回忆补过程。
+              - article [ref=e73]:
+                - heading "组织可协同" [level=3] [ref=e74]
+                - paragraph [ref=e75]: 业务、财务、信息安全和管理团队看到的是同一套事实基础，评估效率才会真正提升。
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - heading "先看你最关心的安全问题" [level=2] [ref=e79]
+        - paragraph [ref=e80]: 不同组织最先关注的问题不一样，可以先从数据、资金、记录或服务稳定性开始看。
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - link "01 先看数据与权限 如果组织最先关心数据归属、访问范围和角色分工，这一块通常决定是否能进入正式评审。 重点看：数据归属、角色权限、敏感操作控制" [ref=e83] [cursor=pointer]:
+            - /url: "#security-data"
+            - generic [ref=e84]: "01"
+            - strong [ref=e85]: 先看数据与权限
+            - paragraph [ref=e86]: 如果组织最先关心数据归属、访问范围和角色分工，这一块通常决定是否能进入正式评审。
+            - generic [ref=e87]: 重点看：数据归属、角色权限、敏感操作控制
+          - link "02 先看资金流转 涉及红包、返利、积分或代发协同时，账户结构与风险预警往往会先于营销逻辑被追问。 重点看：账户管理、余额监控、责任归属、异常提醒" [ref=e88] [cursor=pointer]:
+            - /url: "#security-funds"
+            - generic [ref=e89]: "02"
+            - strong [ref=e90]: 先看资金流转
+            - paragraph [ref=e91]: 涉及红包、返利、积分或代发协同时，账户结构与风险预警往往会先于营销逻辑被追问。
+            - generic [ref=e92]: 重点看：账户管理、余额监控、责任归属、异常提醒
+          - link "03 先看对账与记录 重视财务闭环的组织通常先确认记录是否完整、差异怎么处理、操作能否回溯。 重点看：对账机制、差异处理、记录留存、复盘依据" [ref=e93] [cursor=pointer]:
+            - /url: "#security-audit"
+            - generic [ref=e94]: "03"
+            - strong [ref=e95]: 先看对账与记录
+            - paragraph [ref=e96]: 重视财务闭环的组织通常先确认记录是否完整、差异怎么处理、操作能否回溯。
+            - generic [ref=e97]: 重点看：对账机制、差异处理、记录留存、复盘依据
+          - link "04 先看服务稳定与推进 高峰活动、跨部门协同时，更关键的是服务稳不稳、异常怎么处置、项目如何协同推进。 重点看：服务稳定、异常提醒、恢复流程、交付推进" [ref=e98] [cursor=pointer]:
+            - /url: "#security-reliability"
+            - generic [ref=e99]: "04"
+            - strong [ref=e100]: 先看服务稳定与推进
+            - paragraph [ref=e101]: 高峰活动、跨部门协同时，更关键的是服务稳不稳、异常怎么处置、项目如何协同推进。
+            - generic [ref=e102]: 重点看：服务稳定、异常提醒、恢复流程、交付推进
+        - generic [ref=e103]:
+          - generic [ref=e104]: 看边界是否清楚
+          - generic [ref=e105]: 看责任是否能落到位
+          - generic [ref=e106]: 看记录是否能经得住复盘
+          - generic [ref=e107]: 看异常和交付是否可控
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - heading "安全保障怎么落到日常使用" [level=2] [ref=e111]
+        - paragraph [ref=e112]: 以下内容对应品牌组织真实会追问的控制点，重点是把问题、配合方式和管理结果说清楚。
+      - generic [ref=e113]:
+        - generic [ref=e115]:
+          - generic [ref=e117]:
+            - strong [ref=e118]: 账号权限
+            - text: 不同角色可以看到不同信息，关键操作也能按权限管理。
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: 能力一
+              - heading "数据与账号权限" [level=3] [ref=e122]
+              - paragraph [ref=e123]: 真正可用的权限体系，不是只有管理员和普通用户两层，而是要按组织、角色、项目、活动和数据范围把边界拆清楚。
+            - generic [ref=e124]:
+              - article [ref=e125]:
+                - heading "组织最关心什么" [level=4] [ref=e126]
+                - paragraph [ref=e127]: 数据归属是否明确，敏感信息是否分级，导出和查看是否受控，关键配置是否需要审批或复核。
+              - article [ref=e128]:
+                - heading "我们如何配合" [level=4] [ref=e129]
+                - paragraph [ref=e130]: 按角色、组织和项目拆分访问边界，让业务、财务、运营和管理团队看到各自需要的信息层级。
+              - article [ref=e131]:
+                - heading "带来的管理结果" [level=4] [ref=e132]
+                - paragraph [ref=e133]: 减少“谁都能看、谁都能改”的灰区，让权限不再依赖人工提醒或临时群沟通。
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: 能力二
+              - heading "资金账户与风险控制" [level=3] [ref=e139]
+              - paragraph [ref=e140]: 只要项目涉及红包、返利、积分激励或代发协同，资金流转就不能只被当作营销配置，而要被单独纳入账户与提醒管理。
+            - generic [ref=e141]:
+              - article [ref=e142]:
+                - heading "组织最关心什么" [level=4] [ref=e143]
+                - paragraph [ref=e144]: 多商户号如何管理，余额是否可见，风险阈值如何预警，责任边界是否清楚，异常是否能及时熔断。
+              - article [ref=e145]:
+                - heading "我们如何配合" [level=4] [ref=e146]
+                - paragraph [ref=e147]: 围绕账户状态、活动预算、发放节奏和异常触发做统一监控，让业务动作和资金安全在同一流程里运行。
+              - article [ref=e148]:
+                - heading "带来的管理结果" [level=4] [ref=e149]
+                - paragraph [ref=e150]: 让营销团队可以高效执行，同时给财务和安全团队留下明确的监测和处置抓手。
+          - generic [ref=e152]:
+            - strong [ref=e153]: 资金监控
+            - text: 账户余额、提醒标记、发放记录和活动预算清晰呈现，方便业务与财务共同查看。
+        - generic [ref=e155]:
+          - generic [ref=e157]:
+            - strong [ref=e158]: 记录留存
+            - text: 对账列表、操作记录、差异处理和审批时间线共同保留，方便后续复盘。
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: 能力三
+              - heading "对账机制与记录留存" [level=3] [ref=e162]
+              - paragraph [ref=e163]: 项目越往大组织走，越需要明确说清楚对账方式、差异处理和操作记录如何回溯。
+            - generic [ref=e164]:
+              - article [ref=e165]:
+                - heading "组织最关心什么" [level=4] [ref=e166]
+                - paragraph [ref=e167]: 账务是否可核对，差异出现后谁处理、怎么追，关键操作有没有日志，复盘时能否还原完整过程。
+              - article [ref=e168]:
+                - heading "我们如何配合" [level=4] [ref=e169]
+                - paragraph [ref=e170]: 围绕发放记录、账户变动、异常提示、审批动作与处理结果形成完整留痕，方便对账和抽查。
+              - article [ref=e171]:
+                - heading "带来的管理结果" [level=4] [ref=e172]
+                - paragraph [ref=e173]: 减少跨团队互相追表、补截图和人工拼证据的成本，让财务复核更高效。
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: 能力四
+              - heading "服务稳定性与项目推进" [level=3] [ref=e179]
+              - paragraph [ref=e180]: 除了服务本身稳不稳，大客户还会关心高峰期怎么保运行、异常怎么通知、项目怎么交付、双方角色怎么协同。
+            - generic [ref=e181]:
+              - article [ref=e182]:
+                - heading "组织最关心什么" [level=4] [ref=e183]
+                - paragraph [ref=e184]: 活动高峰是否抗压，异常能否及时发现和处置，变更流程是否清楚，项目推进是不是有人负责到底。
+              - article [ref=e185]:
+                - heading "我们如何配合" [level=4] [ref=e186]
+                - paragraph [ref=e187]: 通过监控提醒、恢复机制、异常处理和项目节奏管理，把服务稳定和交付协同放到一套机制里处理。
+              - article [ref=e188]:
+                - heading "带来的管理结果" [level=4] [ref=e189]
+                - paragraph [ref=e190]: 让活动上线不是一次冒险动作，而是可以预判、可观察、可回收的正式经营项目。
+          - generic [ref=e192]:
+            - strong [ref=e193]: 稳定运行
+            - text: 监控看板、异常提醒、协作会议和排期清单共同呈现，让服务运行和团队配合都更清楚。
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - heading "安全合规不只看功能，也要看项目怎么推进" [level=2] [ref=e197]
+        - paragraph [ref=e198]: 很多客户不是被能力本身卡住，而是被不清楚的交付边界、评审资料和推进责任拖慢。
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - article [ref=e201]:
+            - generic [ref=e202]: 推进路径
+            - heading "从风险识别到正式上线，安全合规需要一条可解释、可协同、可复核的推进路径。" [level=3] [ref=e203]
+            - paragraph [ref=e204]: 客户需要明白的不只是“产品能做什么”，更是“双方如何把项目推进到组织可接受的状态”。
+          - complementary [ref=e205]:
+            - generic [ref=e206]: 评审价值
+            - paragraph [ref=e207]: 安全合规内容可以提前降低业务、信息安全、财务和管理团队之间的理解摩擦。
+        - generic [ref=e208]:
+          - article [ref=e209]:
+            - generic [ref=e210]: "01"
+            - heading "识别组织顾虑" [level=3] [ref=e211]
+            - paragraph [ref=e212]: 先判断客户最先关注的是数据、资金、记录还是高峰稳定性，把沟通入口对准真实问题。
+          - article [ref=e213]:
+            - generic [ref=e214]: "02"
+            - heading "映射控制机制" [level=3] [ref=e215]
+            - paragraph [ref=e216]: 用账号权限、账户管理、操作记录、异常提醒和推进机制逐项对应组织顾虑，避免泛泛而谈。
+          - article [ref=e217]:
+            - generic [ref=e218]: "03"
+            - heading "准备评审材料" [level=3] [ref=e219]
+            - paragraph [ref=e220]: 把边界说明、流程结构、责任分工和配套资料提前组织好，减少反复追问。
+          - article [ref=e221]:
+            - generic [ref=e222]: "04"
+            - heading "进入项目落地" [level=3] [ref=e223]
+            - paragraph [ref=e224]: 确认合作方式、交付节奏、异常机制和上线准备，让项目能从评审顺利进入执行。
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - strong [ref=e227]: 下一步推进
+            - paragraph [ref=e228]: 先建立安全与合规信任，再确认合作模式与交付结构，或直接进入定向沟通。
+          - generic [ref=e229]:
+            - generic [ref=e230]: 适合品牌方安全评估
+            - generic [ref=e231]: 适合财务预沟通
+            - generic [ref=e232]: 适合销售前置答疑使用
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - heading "客户常见追问，可以提前回应" [level=2] [ref=e236]
+        - paragraph [ref=e237]: 提前回应高频顾虑，可以让业务、财务和安全相关同事更快形成共识。
+      - generic [ref=e238]:
+        - article [ref=e239]:
+          - generic [ref=e240]: 高频问题
+          - heading "如果不同部门都要使用，权限会不会太粗？" [level=3] [ref=e241]
+          - paragraph [ref=e242]: 权限不是按单一账号类型区分，而是按组织角色、项目范围和操作边界拆分，避免所有人共用一层视图。
+        - article [ref=e243]:
+          - generic [ref=e244]: 高频问题
+          - heading "涉及资金激励时，怎么保证活动执行和账户安全同时成立？" [level=3] [ref=e245]
+          - paragraph [ref=e246]: 资金流转会被单独纳入账户、余额、提醒和责任管理，不把风险控制埋在活动配置里。
+        - article [ref=e247]:
+          - generic [ref=e248]: 高频问题
+          - heading "项目出问题后，能不能快速定位并还原过程？" [level=3] [ref=e249]
+          - paragraph [ref=e250]: 关键操作、对账记录、异常处理和恢复动作都会保留记录，方便复盘和责任确认。
+        - article [ref=e251]:
+          - generic [ref=e252]: 高频问题
+          - heading "大客户推进慢，安全合规能帮到什么？" [level=3] [ref=e253]
+          - paragraph [ref=e254]: 提前把安全顾虑、责任边界和配合方式说清楚，让内部多个角色更容易达成基础共识。
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - generic [ref=e259]: 下一步
+        - heading "如果你已经在评估组织能否接入这套方案，下一步应确认合作边界、交付方式与责任结构。" [level=2] [ref=e260]
+        - paragraph [ref=e261]: 可以继续查看合作模式，判断是快速上线、独立部署还是长期协同更适合当前阶段；也可以直接发起安全合规沟通，把顾虑提前放到台面上解决。
+      - generic [ref=e262]:
+        - link "查看合作模式" [ref=e263] [cursor=pointer]:
+          - /url: ./models.html
+        - link "发起安全合规沟通" [ref=e264] [cursor=pointer]:
+          - /url: ./contact.html
+  - contentinfo [ref=e265]:
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - link "呐客科技首页" [ref=e269] [cursor=pointer]:
+            - /url: ./index.html
+            - generic [ref=e271]:
+              - strong [ref=e272]: 呐客科技
+              - generic [ref=e273]: 扫码入口与私域增长
+          - paragraph [ref=e274]: 以一物一码为用户入口，连接扫码互动、私域沉淀与复购经营，帮助消费品牌建立长期可控的用户资产。
+          - generic [ref=e275]:
+            - generic [ref=e276]: 品牌用户增长方案
+            - generic [ref=e277]: 支持演示预约与方案咨询
+            - generic [ref=e278]: 适合消费品牌与零售业务
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - strong [ref=e281]: 核心页面
+            - generic [ref=e282]:
+              - link "首页" [ref=e283] [cursor=pointer]:
+                - /url: ./index.html
+              - link "解决方案" [ref=e284] [cursor=pointer]:
+                - /url: ./solution.html
+              - link "产品能力" [ref=e285] [cursor=pointer]:
+                - /url: ./products.html
+          - generic [ref=e286]:
+            - strong [ref=e287]: 场景与信任
+            - generic [ref=e288]:
+              - link "行业场景" [ref=e289] [cursor=pointer]:
+                - /url: ./industries.html
+              - link "客户案例" [ref=e290] [cursor=pointer]:
+                - /url: ./cases.html
+              - link "安全合规" [ref=e291] [cursor=pointer]:
+                - /url: ./security.html
+          - generic [ref=e292]:
+            - strong [ref=e293]: 合作与咨询
+            - generic [ref=e294]:
+              - link "合作方式" [ref=e295] [cursor=pointer]:
+                - /url: ./models.html
+              - link "联系咨询" [ref=e296] [cursor=pointer]:
+                - /url: ./contact.html
+              - generic [ref=e297]: 支持方案咨询、演示预约与合作评估
+          - generic [ref=e298]:
+            - strong [ref=e299]: 联系信息
+            - generic [ref=e300]:
+              - generic [ref=e301]: 公司主体：呐客（杭州）科技有限公司
+              - generic [ref=e302]: 商务咨询：400-820-2026
+              - generic [ref=e303]: 服务时间：工作日 9:30 - 18:30
+              - generic [ref=e304]: 公司地址：浙江省杭州市余杭区
+      - generic [ref=e305]:
+        - paragraph [ref=e306]: 聚焦扫码入口、私域沉淀与复购增长，帮助品牌建立长期可控的用户资产。
+        - paragraph [ref=e307]: 版权所有 © 2026 呐客（杭州）科技有限公司
+        - paragraph [ref=e308]: 浙ICP备2024012345号-1
+        - paragraph [ref=e309]: 浙公网安备33011002001234号
