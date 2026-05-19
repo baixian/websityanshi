@@ -186,10 +186,10 @@ $(function () {
     const $feedback = $('#home-contact-feedback')
 
     const validators = {
-        companyName: value => value.trim() ? '' : '请填写公司名称',
-        contactPerson: value => value.trim() ? '' : '请填写联系人',
-        contactPhone: value => /^1\d{10}$/.test(value.replace(/\s+/g, '')) ? '' : '请填写有效的手机号',
-        contactDemand: value => value.trim().length >= 6 ? '' : '请至少填写 6 个字的需求说明'
+        companyName: value => value.trim() ? '' : '请填写公司或品牌名称',
+        contactPerson: value => value.trim() ? '' : '请填写联系人姓名或岗位',
+        contactPhone: value => /^1\d{10}$/.test(value.replace(/\s+/g, '')) ? '' : '请填写方便联系的手机号',
+        contactDemand: value => value.trim().length >= 6 ? '' : '请至少填写 6 个字，并尽量补充业务场景'
     }
 
     const setFieldError = ($input, message) => {
@@ -237,7 +237,7 @@ $(function () {
         })
 
         if (hasError) {
-            $feedback.addClass('is-error').text('请先补全必填项，并检查手机号格式后再提交。')
+            $feedback.addClass('is-error').text('请先补全必填项，并检查手机号格式。')
             const $firstInvalid = $form.find('.is-invalid').first()
             if ($firstInvalid.length) {
                 $firstInvalid.trigger('focus')
@@ -247,7 +247,7 @@ $(function () {
 
         $feedback
             .addClass('is-success')
-            .text('提交成功，我们已收到你的咨询信息，相关顾问会尽快与你联系。')
+            .text('已收到信息，我们会尽快与你联系。')
 
         $form[0].reset()
         $form.find('input[name], textarea[name]').removeAttr('data-touched').removeClass('is-invalid').attr('aria-invalid', 'false')

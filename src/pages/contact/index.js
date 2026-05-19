@@ -142,7 +142,7 @@ const setupForm = () => {
         }
 
         if (field.name === 'message' && value.length < 6) {
-            setFieldError(field, '请尽量补充当前重点场景，至少填写 6 个字')
+            setFieldError(field, '请尽量补充当前业务场景，至少填写 6 个字')
             return false
         }
 
@@ -181,7 +181,7 @@ const setupForm = () => {
 
         if (!isValid) {
             if (status) {
-                status.textContent = '请填写方便联系的手机号，并尽量补充当前重点场景。'
+                status.textContent = '请填写方便联系的手机号，并尽量补充当前业务场景。'
                 status.classList.add('is-error')
             }
 
