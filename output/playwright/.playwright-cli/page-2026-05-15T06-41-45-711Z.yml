@@ -1,0 +1,218 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 行业场景
+        - heading "同样是做用户连接，不同行业的起点和重点并不一样" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 围绕产品触点、渠道结构和购买节奏，针对快消、酒水、食品、日化与连锁零售品牌，梳理更贴近实际业务的落地场景。
+        - generic [ref=e27]:
+          - link "查看解决方案" [ref=e28] [cursor=pointer]:
+            - /url: ./solution.html
+          - link "预约场景沟通" [ref=e29] [cursor=pointer]:
+            - /url: ./contact.html
+        - generic "场景判断短句" [ref=e30]:
+          - generic [ref=e31]: 先看触点
+          - generic [ref=e32]: 再定优先场景
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 场景总览
+          - strong [ref=e37]: 先判断触点和节奏，再决定从包装、活动、复购还是门店开始
+          - paragraph [ref=e38]: 不同行业的入口不同，但判断逻辑很接近，都是先看现有触点能不能顺着接成品牌自己的用户关系。
+        - generic [ref=e39]:
+          - article [ref=e40]:
+            - generic [ref=e41]: 包装起点
+            - strong [ref=e42]: 更适合高频扫码和新品动销
+          - article [ref=e43]:
+            - generic [ref=e44]: 节点起点
+            - strong [ref=e45]: 更适合礼赠和节庆活动承接
+          - article [ref=e46]:
+            - generic [ref=e47]: 复购起点
+            - strong [ref=e48]: 更适合高频消费和会员活跃
+          - article [ref=e49]:
+            - generic [ref=e50]: 门店起点
+            - strong [ref=e51]: 更适合区域联动和统一复制
+        - generic [ref=e52]:
+          - strong [ref=e53]: 行业入口不同，经营底盘其实相近
+          - paragraph [ref=e54]: 先把线下触点接成品牌自己的关系，再去谈下一轮动销、回流和会员活跃。
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: 快消与饮料
+        - generic [ref=e60]:
+          - generic [ref=e65]: 包装扫码
+          - generic [ref=e66]:
+            - generic [ref=e67]: 新品推广
+            - strong [ref=e68]: 先把扫码承接进会员和后续触达
+        - paragraph [ref=e69]: 瓶身、箱码、陈列物料和促销活动本来就能带来大量扫码，关键是扫码后不能断在现场。
+      - article [ref=e70]:
+        - generic [ref=e71]: scene 01
+        - generic [ref=e72]:
+          - text: 快消与饮料
+          - heading "快消和饮料品牌，最值得先做的是把包装触点接住" [level=2] [ref=e73]
+          - paragraph [ref=e74]: 瓶身、箱码、陈列物料和促销活动本来就能带来大量扫码，关键不是有没有流量，而是这些扫码之后能不能顺着进入会员留资和后续触达。
+        - generic "典型关键词" [ref=e75]:
+          - generic [ref=e76]: 新品上市
+          - generic [ref=e77]: 终端动销
+          - generic [ref=e78]: 尝鲜留资
+        - generic [ref=e79]:
+          - article [ref=e80]:
+            - strong [ref=e81]: 更适合新品推广和终端动销场景
+            - paragraph [ref=e82]: 天然就有扫码入口，重点是把包装上的注意力接进后续关系。
+          - article [ref=e83]:
+            - strong [ref=e84]: 更适合把尝鲜用户沉淀为会员用户
+            - paragraph [ref=e85]: 让领券、试饮、抽奖这些动作顺手完成留资，而不是一次性结束。
+        - generic [ref=e86]:
+          - generic [ref=e87]: 包装触点
+          - generic [ref=e88]: 会员承接
+          - generic [ref=e89]: 复购提醒
+    - generic [ref=e91]:
+      - generic [ref=e93]:
+        - generic [ref=e94]: 酒水与礼赠
+        - generic [ref=e95]:
+          - generic [ref=e98]: 节庆节点
+          - generic [ref=e99]:
+            - generic [ref=e100]: 礼盒场景
+            - strong [ref=e101]: 把节庆热度接成节后回流和持续服务
+        - paragraph [ref=e102]: 节日礼盒、宴席场景和节点促销往往带来集中流量，但真正有价值的是活动之后还能不能继续被品牌看见。
+      - article [ref=e103]:
+        - generic [ref=e104]: scene 02
+        - generic [ref=e105]:
+          - text: 酒水与礼赠
+          - heading "酒水和礼赠品牌，更需要把节庆热度变成后续关系" [level=2] [ref=e106]
+          - paragraph [ref=e107]: 节日礼盒、宴席场景和节点促销往往能带来集中流量，但真正有价值的，是活动之后这批用户还能不能继续被品牌看见和服务。
+        - generic "典型关键词" [ref=e108]:
+          - generic [ref=e109]: 节庆礼赠
+          - generic [ref=e110]: 宴席扫码
+          - generic [ref=e111]: 节后回流
+        - generic [ref=e112]:
+          - article [ref=e113]:
+            - strong [ref=e114]: 提升节庆节点和礼赠场景的延续价值
+            - paragraph [ref=e115]: 不让高峰流量只停留在某个节日节点，而是形成后续可继续触达的人群。
+          - article [ref=e116]:
+            - strong [ref=e117]: 提升用户从扫码到会员连接的转化机会
+            - paragraph [ref=e118]: 让礼盒、宴席、促销入口变成品牌关系的开始，而不是兑奖动作的终点。
+        - generic [ref=e119]:
+          - generic [ref=e120]: 节庆热度
+          - generic [ref=e121]: 会员连接
+          - generic [ref=e122]: 节后复购
+    - generic [ref=e124]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: 食品与日化
+        - generic [ref=e133]:
+          - strong [ref=e134]: 会员活跃
+          - paragraph [ref=e135]: 权益提醒 / 再次购买 / 使用习惯培养
+        - paragraph [ref=e137]: 这类品类购买频次更高，和一次爆发相比，更值得尽早围绕复购、活跃和习惯养成做布局。
+      - article [ref=e138]:
+        - generic [ref=e139]: scene 03
+        - generic [ref=e140]:
+          - text: 食品与日化
+          - heading "食品和日化品牌，更适合把重点放在复购和活跃上" [level=2] [ref=e141]
+          - paragraph [ref=e142]: 这类品类购买频次更高，用户回购机会也更多，因此比起只看首单转化，更值得尽早围绕会员活跃、权益提醒和再次购买做布局。
+        - generic "典型关键词" [ref=e143]:
+          - generic [ref=e144]: 高频复购
+          - generic [ref=e145]: 权益提醒
+          - generic [ref=e146]: 习惯养成
+        - generic [ref=e147]:
+          - article [ref=e148]:
+            - strong [ref=e149]: 更适合推进复购型运营动作
+            - paragraph [ref=e150]: 高频品类不该只抓第一次购买，而要尽早把再次购买的提醒节奏建起来。
+          - article [ref=e151]:
+            - strong [ref=e152]: 更适合围绕重点产品线做持续触达
+            - paragraph [ref=e153]: 围绕重点单品或组合权益经营用户，让触达变成连续动作，不靠一次活动吃满结果。
+        - generic [ref=e154]:
+          - generic [ref=e155]: 复购节奏
+          - generic [ref=e156]: 活跃运营
+          - generic [ref=e157]: 忠诚积累
+    - generic [ref=e159]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: 连锁零售与渠道
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: 华东
+            - generic [ref=e166]: 华南
+            - generic [ref=e167]: 华北
+            - generic [ref=e168]: 门店
+          - generic [ref=e172]:
+            - generic [ref=e173]: 门店联动
+            - strong [ref=e174]: 把多区域、多活动、多终端收成统一方法
+        - paragraph [ref=e175]: 当门店、区域、经销和活动同时存在时，最需要解决的是各地动作如何归到同一套承接与复盘方法里。
+      - article [ref=e176]:
+        - generic [ref=e177]: scene 04
+        - generic [ref=e178]:
+          - text: 连锁零售与渠道
+          - heading "连锁和渠道型品牌，更需要把多门店动作收成统一方法" [level=2] [ref=e179]
+          - paragraph [ref=e180]: 当门店、区域、经销和活动同时存在时，最容易出现的不是没流量，而是各地各做各的，最后难复盘、难复制，也难形成统一用户连接。
+        - generic "典型关键词" [ref=e181]:
+          - generic [ref=e182]: 多门店联动
+          - generic [ref=e183]: 区域协同
+          - generic [ref=e184]: 统一留资
+        - generic [ref=e185]:
+          - article [ref=e186]:
+            - strong [ref=e187]: 支撑多门店、多区域和多活动场景
+            - paragraph [ref=e188]: 同一套品牌动作在不同区域执行时，仍然要回到统一的承接、记录和复盘方式。
+          - article [ref=e189]:
+            - strong [ref=e190]: 支撑渠道联动与终端动销配合
+            - paragraph [ref=e191]: 既要考虑门店现场，也要考虑经销、导购和活动协同，避免动作分散。
+        - generic [ref=e192]:
+          - generic [ref=e193]: 门店动作
+          - generic [ref=e194]: 统一承接
+          - generic [ref=e195]: 复制放大
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e200]: 证明区
+        - heading "行业不同，但真正要解决的问题其实很接近" [level=2] [ref=e201]
+        - paragraph [ref=e202]: 无论是提升动销、做新品推广还是加强会员留存，关键都在于把原本分散的触点慢慢变成品牌自己的用户关系。
+      - generic [ref=e203]:
+        - article [ref=e204]:
+          - generic [ref=e205]: 新品上市
+          - strong [ref=e206]: 留资更多
+          - paragraph [ref=e207]: 把新品尝鲜带来的扫码人群沉淀到后续经营里。
+        - article [ref=e208]:
+          - generic [ref=e209]: 节庆礼赠
+          - strong [ref=e210]: 回流更快
+          - paragraph [ref=e211]: 让节庆热度不只停在节点当天，还能继续带来节后触达。
+        - article [ref=e212]:
+          - generic [ref=e213]: 高频复购
+          - strong [ref=e214]: 复购更稳
+          - paragraph [ref=e215]: 把权益提醒、内容触达和复购节奏慢慢做成固定动作。
+        - article [ref=e216]:
+          - generic [ref=e217]: 多门店联动
+          - strong [ref=e218]: 复制更顺
+          - paragraph [ref=e219]: 门店、渠道和区域动作进入同一套方法后，复盘和放大都更容易。
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]: 下一步
+        - heading "结合所属行业，先找出更值得优先做的场景" [level=2] [ref=e225]
+        - paragraph [ref=e226]: 从产品触点、渠道结构和购买节奏出发，判断更适合先从包装、门店、活动还是会员运营切入。
+      - generic [ref=e227]:
+        - link "预约场景沟通" [ref=e228] [cursor=pointer]:
+          - /url: ./contact.html
+        - link "查看客户案例" [ref=e229] [cursor=pointer]:
+          - /url: ./cases.html
+  - contentinfo [ref=e230]:
+    - paragraph [ref=e232]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

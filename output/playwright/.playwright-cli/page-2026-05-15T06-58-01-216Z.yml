@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 解决方案
+        - heading "让触达、留存和复购，回到同一条增长路径" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 从包装扫码、门店互动和活动入口开始，把用户接进会员连接、内容运营和后续购买，让一次触达真正服务于长期结果。
+        - generic [ref=e27]:
+          - link "预约方案沟通" [ref=e28] [cursor=pointer]:
+            - /url: ./contact.html
+          - link "了解产品能力" [ref=e29] [cursor=pointer]:
+            - /url: ./products.html
+        - generic "路径要点" [ref=e30]:
+          - generic [ref=e31]: 先统一入口
+          - generic [ref=e32]: 再沉淀关系
+          - generic [ref=e33]: 后续运营才接得上
+      - generic "增长路径总览" [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: 路径总览
+          - strong [ref=e38]: 把一次扫码，拆成四个连续阶段
+          - paragraph [ref=e39]: 先把入口收回来，再把关系留下来，最后才谈后续运营和复制放大。
+        - generic [ref=e40]:
+          - article [ref=e41]:
+            - generic [ref=e42]: "01"
+            - strong [ref=e43]: 入口承接
+            - paragraph [ref=e44]: 包装、门店和活动流量先回到同一条入口。
+          - article [ref=e45]:
+            - generic [ref=e46]: "02"
+            - strong [ref=e47]: 关系沉淀
+            - paragraph [ref=e48]: 把留资、入会和识别动作放在第一次触达里完成。
+          - article [ref=e49]:
+            - generic [ref=e50]: "03"
+            - strong [ref=e51]: 后续运营
+            - paragraph [ref=e52]: 让内容、权益和节点动作有依据地继续发生。
+          - article [ref=e53]:
+            - generic [ref=e54]: "04"
+            - strong [ref=e55]: 复制放大
+            - paragraph [ref=e56]: 先跑通重点场景，再扩展到更长周期和更多渠道。
+        - paragraph [ref=e57]: 先承接，再沉淀，再运营，最后再决定哪些动作值得继续放大。
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: "01"
+        - heading "先把分散入口收进同一条用户承接路径" [level=2] [ref=e62]
+        - paragraph [ref=e63]: 无论用户来自包装、门店、地推物料还是节点活动，品牌首先要解决的，都是“来了以后往哪里走”，而不是让每个入口各自结束在当场。
+        - list [ref=e64]:
+          - listitem [ref=e65]: 减少扫码之后没有后续动作的流失
+          - listitem [ref=e66]: 让不同场景的人群进入统一承接入口
+          - listitem [ref=e67]: 为会员留资和后续沟通打下基础
+      - generic [ref=e69]:
+        - generic [ref=e70]: 多入口统一承接
+        - generic [ref=e71]:
+          - generic [ref=e72]: 包装扫码
+          - generic [ref=e73]: 门店互动
+          - generic [ref=e74]: 活动入口
+          - generic [ref=e75]: 统一承接页
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]: "02"
+        - heading "把第一次兴趣，接成可持续的会员关系" [level=2] [ref=e80]
+        - paragraph [ref=e81]: 用户扫过一次码，并不等于品牌真正拥有了这次连接。只有把这次触达沉淀为可识别、可互动、可持续沟通的关系，后续运营才有基础。
+        - list [ref=e82]:
+          - listitem [ref=e83]: 让用户关系不再停留在单次活动
+          - listitem [ref=e84]: 让会员运营不再面对模糊人群
+          - listitem [ref=e85]: 让后续内容、权益和节日动作接得上前面的触达
+      - generic [ref=e87]:
+        - generic [ref=e88]: 关系沉淀
+        - generic [ref=e89]:
+          - article [ref=e90]:
+            - strong [ref=e91]: 入会留资
+            - generic [ref=e92]: 把触达变成可识别关系
+          - article [ref=e93]:
+            - strong [ref=e94]: 会员标签
+            - generic [ref=e95]: 后续分层和互动有依据
+          - article [ref=e96]:
+            - strong [ref=e97]: 权益连接
+            - generic [ref=e98]: 让用户愿意继续留下来
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e102]: "03"
+        - heading "让节点活动，不再只服务于当期销量" [level=2] [ref=e103]
+        - paragraph [ref=e104]: 新品上市、节庆促销、门店动销和渠道活动当然重要，但真正决定长期回报的，是活动结束之后用户还能不能继续被唤醒、被服务、被转化。
+        - list [ref=e105]:
+          - listitem [ref=e106]: 提升活动结束后的留存机会
+          - listitem [ref=e107]: 提升会员活跃和内容触达的连续性
+          - listitem [ref=e108]: 提升复购转化，不只依赖下一次大促
+      - generic [ref=e110]:
+        - generic [ref=e111]: 后续运营
+        - generic [ref=e112]:
+          - generic [ref=e113]: 内容触达
+          - generic [ref=e114]: 权益提醒
+          - generic [ref=e115]: 节点回流
+          - generic [ref=e116]: 再次购买
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - generic [ref=e120]: "04"
+        - heading "先在重点产品线跑通，再复制到更多场景" [level=2] [ref=e121]
+        - paragraph [ref=e122]: 更稳妥的做法通常不是一次铺开，而是先在重点渠道、重点区域或重点活动上验证模式，等结果清楚了，再逐步复制到更长周期的经营中。
+        - list [ref=e123]:
+          - listitem [ref=e124]: 降低前期试错压力
+          - listitem [ref=e125]: 更容易看到留存和复购上的真实变化
+          - listitem [ref=e126]: 让后续复制和放大更有依据
+      - generic [ref=e128]:
+        - generic [ref=e129]: 试点放大
+        - generic [ref=e130]:
+          - article [ref=e131]:
+            - strong [ref=e132]: 试点阶段
+            - generic [ref=e133]: 重点产品线 / 区域 / 活动
+          - article [ref=e134]:
+            - strong [ref=e135]: 复制阶段
+            - generic [ref=e136]: 渠道协同和节点扩展
+          - article [ref=e137]:
+            - strong [ref=e138]: 放大阶段
+            - generic [ref=e139]: 稳定纳入长期经营节奏
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]: 方案证明
+        - heading "方案真正的价值，不在于做了多少动作，而在于留下多少后续结果" [level=2] [ref=e145]
+        - paragraph [ref=e146]: 当活动后的用户还能继续被连接、被唤醒、被转化，品牌看到的就不再只是一次触达，而是一条可以持续放大的增长路径。
+      - generic [ref=e147]:
+        - article [ref=e148]:
+          - generic [ref=e149]: "01"
+          - strong [ref=e150]: 先把入口接住
+          - paragraph [ref=e151]: 包装、门店和活动入口不再各自结束在当场。
+        - article [ref=e152]:
+          - generic [ref=e153]: "02"
+          - strong [ref=e154]: 再把关系留下
+          - paragraph [ref=e155]: 让留资、入会和后续触达建立在同一批用户上。
+        - article [ref=e156]:
+          - generic [ref=e157]: "03"
+          - strong [ref=e158]: 最后才看放大节奏
+          - paragraph [ref=e159]: 哪些动作值得继续投，哪些场景适合复制，会更容易判断。
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e164]: 下一步
+        - heading "结合当前业务重点，确定更适合的落地方式" [level=2] [ref=e165]
+        - paragraph [ref=e166]: 从产品线、渠道结构和活动节奏出发，梳理更值得优先验证的场景和动作。
+      - generic [ref=e167]:
+        - link "预约方案沟通" [ref=e168] [cursor=pointer]:
+          - /url: ./contact.html
+        - link "查看行业场景" [ref=e169] [cursor=pointer]:
+          - /url: ./industries.html
+  - contentinfo [ref=e170]:
+    - paragraph [ref=e172]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 产品支持
+        - heading "把前端活动、会员连接和后续运营收进同一个工作台" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 围绕扫码承接、会员留资、节点触达和结果回看，帮助品牌把分散动作收成一套更容易执行、复用和复盘的日常运营方式。
+        - generic [ref=e27]:
+          - link "查看解决方案" [ref=e28] [cursor=pointer]:
+            - /url: ./solution.html
+          - link "预约产品演示" [ref=e29] [cursor=pointer]:
+            - /url: ./contact.html
+        - generic "能力分段" [ref=e30]:
+          - generic [ref=e31]: 入口承接
+          - generic [ref=e32]: 会员连接
+          - generic [ref=e33]: 运营触达
+          - generic [ref=e34]: 结果回看
+        - generic [ref=e35]:
+          - generic [ref=e36]: 把触点承接、会员沉淀、内容触达和复盘判断放回同一套节奏里。
+          - generic [ref=e37]: 顺着团队每天推进业务的顺序去看产品，而不是先看一排功能名词。
+      - generic [ref=e39]:
+        - generic [ref=e46]:
+          - complementary [ref=e47]
+          - generic [ref=e53]:
+            - generic [ref=e55]: 品牌日常工作台
+            - generic [ref=e61]:
+              - article [ref=e62]:
+                - generic [ref=e63]: 入口承接
+                - paragraph [ref=e69]: 包装、门店、活动入口统一进入同一路径。
+              - article [ref=e70]:
+                - generic [ref=e71]: 会员连接
+                - paragraph [ref=e76]: 入会、权益和后续服务在同一步里自然发生。
+              - article [ref=e77]:
+                - generic [ref=e78]: 运营触达
+                - paragraph [ref=e84]: 节点内容、权益提醒和复购动作按节奏协同推进。
+        - article [ref=e85]:
+          - generic [ref=e86]: 入口承接
+          - strong [ref=e87]: 扫码统一入场
+        - article [ref=e88]:
+          - generic [ref=e89]: 结果回看
+          - strong [ref=e90]: 下一步判断更清楚
+    - generic [ref=e93]:
+      - paragraph [ref=e94]: 团队能稳定用起来，产品价值才真正成立
+      - generic [ref=e95]:
+        - article [ref=e96]:
+          - strong [ref=e97]: 入口不再散落
+          - paragraph [ref=e98]: 不同场景来的用户，都先进入可继续承接的统一入口。
+        - article [ref=e99]:
+          - strong [ref=e100]: 会员连接更自然
+          - paragraph [ref=e101]: 留资、入会和权益不再像额外步骤，而是顺着当下动作发生。
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]: 四个能力段
+        - heading "从入口到复盘，页面按真实运营过程展开" [level=2] [ref=e106]
+        - paragraph [ref=e107]: 这不是一张后台清单，而是一条更接近业务推进顺序的产品展示长卷轴，让团队先看清“怎么支撑日常动作”，再看细节能力。
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: 入口承接
+            - heading "让每一次扫码，都能进入清晰的承接入口" [level=3] [ref=e112]
+            - paragraph [ref=e113]: 不管发生在包装、门店还是活动现场，前端触点只有被统一承接下来，后续会员连接和运营动作才不会断在第一步。
+            - list [ref=e114]:
+              - listitem [ref=e115]: 统一承接包装、门店与活动带来的用户触达
+              - listitem [ref=e116]: 减少不同入口各自分散、各自结束的断层
+              - listitem [ref=e117]: 让运营团队从入口开始就有后续动作可接
+          - generic [ref=e131]:
+            - article [ref=e132]:
+              - strong [ref=e133]: 包装扫码
+              - paragraph [ref=e134]: 到店、开箱、活动物料都指向同一入口。
+            - article [ref=e135]:
+              - strong [ref=e136]: 用户去向
+              - paragraph [ref=e137]: 不再在不同落地页间断开。
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: 会员连接
+            - heading "让留资、入会和权益连接更贴近真实场景" [level=3] [ref=e146]
+            - paragraph [ref=e147]: 会员关系不是单独做出来的，而是要顺着用户当下的动作自然发生。产品要解决的，是让连接过程顺畅、清楚、可持续。
+            - list [ref=e148]:
+              - listitem [ref=e149]: 让会员连接更贴近门店和活动场景
+              - listitem [ref=e150]: 让权益发放和后续服务更自然衔接
+              - listitem [ref=e151]: 让品牌后续沟通更容易被用户接受
+          - generic [ref=e153]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: 入会
+              - generic [ref=e162]: 积分
+              - generic [ref=e163]: 权益
+            - generic [ref=e164]:
+              - article [ref=e165]:
+                - strong [ref=e166]: 会员信息承接
+                - paragraph [ref=e167]: 把留资、标签和服务节点接在同一条关系链上。
+              - article [ref=e168]:
+                - strong [ref=e169]: 权益发放提示
+                - paragraph [ref=e170]: 让用户知道接下来能得到什么，而不是只完成一次表单。
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173]: 运营触达
+            - heading "让节点触达、内容运营和复购提醒更好配合" [level=3] [ref=e174]
+            - paragraph [ref=e175]: 当品牌已经拥有一批被连接起来的用户，后续需要的就不只是再做一次活动，而是把内容、权益和购买提醒更有节奏地用起来。
+            - list [ref=e176]:
+              - listitem [ref=e177]: 支撑会员活动和节日节点触达
+              - listitem [ref=e178]: 支撑新品推荐、权益提醒和复购推动
+              - listitem [ref=e179]: 支撑不同产品线和不同阶段的运营配合
+          - generic [ref=e187]:
+            - article [ref=e188]:
+              - strong [ref=e189]: 节日节点
+              - paragraph [ref=e190]: 提前安排内容和权益节奏。
+            - article [ref=e191]:
+              - strong [ref=e192]: 复购提醒
+              - paragraph [ref=e193]: 把购买周期和触达节点接上。
+            - article [ref=e194]:
+              - strong [ref=e195]: 内容协同
+              - paragraph [ref=e196]: 不同活动不再互相打断。
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]: 结果回看
+            - heading "把结果看清楚，运营才知道下一步该往哪里加力" [level=3] [ref=e200]
+            - paragraph [ref=e201]: 前端带来多少触达、哪些活动留资更好、哪些用户更容易复购，这些结果看得越清楚，团队越容易做出更有效的下一步判断。
+            - list [ref=e202]:
+              - listitem [ref=e203]: 更容易看出哪些活动更能带来留资和复购
+              - listitem [ref=e204]: 更容易复盘不同渠道和场景的效果差异
+              - listitem [ref=e205]: 更容易形成持续优化的运营方法
+          - generic [ref=e207]:
+            - generic [ref=e209]:
+              - strong [ref=e210]: 活动复盘视图
+              - generic [ref=e211]: 结果回看
+            - generic [ref=e220]:
+              - article [ref=e221]:
+                - strong [ref=e222]: 场景差异
+                - paragraph [ref=e223]: 不同入口表现能放在一起比较。
+              - article [ref=e224]:
+                - strong [ref=e225]: 下一步动作
+                - paragraph [ref=e226]: 更容易判断该继续加哪一段投入。
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - generic [ref=e231]: 证明区
+        - heading "产品价值不在于功能多少，而在于团队能不能真正用起来" [level=2] [ref=e232]
+        - paragraph [ref=e233]: 当入口承接、会员连接、运营触达和结果复盘能在同一套节奏里完成，品牌的日常动作才更容易稳定发生。
+      - generic [ref=e234]:
+        - article [ref=e235]:
+          - generic [ref=e236]: 配置效率
+          - strong [ref=e237]: 入口、页面与动作关系更容易一起配置
+          - paragraph [ref=e238]: 团队不必先在一边搭入口、再去另一边补后续流程，减少协同来回。
+        - article [ref=e239]:
+          - generic [ref=e240]: 执行效率
+          - strong [ref=e241]: 活动和会员运营更容易按同一节奏推进
+          - paragraph [ref=e242]: 从门店现场到节点触达，运营动作不再像一次次临时拼接。
+      - blockquote [ref=e243]:
+        - paragraph [ref=e244]: “以前每次活动都像独立项目。现在入口、会员和后续触达都在同一套工作台里，执行和复盘终于接上了。”
+        - generic [ref=e245]: 某消费品牌运营团队反馈
+    - generic [ref=e248]:
+      - generic [ref=e249]:
+        - generic [ref=e250]: 下一步
+        - heading "看看哪些产品能力，更适合你当前的业务重点" [level=2] [ref=e251]
+        - paragraph [ref=e252]: 结合门店触点、活动安排和会员目标，判断哪些能力更值得优先落地和演示。
+      - generic [ref=e253]:
+        - link "预约产品演示" [ref=e254] [cursor=pointer]:
+          - /url: ./contact.html
+        - link "查看客户案例" [ref=e255] [cursor=pointer]:
+          - /url: ./cases.html
+  - contentinfo [ref=e256]:
+    - paragraph [ref=e258]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

@@ -4,390 +4,304 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>合作模式 | 呐客科技</title>
-    <meta name="description" content="了解品牌增长方案的合作方式，比较标准平台版、独立部署版与联合增长版，看看不同阶段更适合怎样开始、怎样上线、怎样配合。">
-    <meta name="keywords" content="合作模式,标准平台,独立部署,联合增长,数据安全">
+    <title>合作方式｜试点、项目制与长期陪跑怎么选择｜呐客科技</title>
+    <meta name="description" content="根据品牌目标、团队配置和项目阶段，匹配更合适的合作深度与推进节奏，帮助团队判断更适合从试点、项目制还是长期协同开始。">
+    <meta name="keywords" content="合作方式,试点合作,项目制合作,长期陪跑,多渠道协同">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="format-detection" content="telephone=no, email=no, address=no">
-    <meta name="theme-color" content="#f6efe7">
+    <meta name="theme-color" content="#f8fafc">
     <meta name="application-name" content="呐客科技">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="呐客科技">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="msapplication-TileColor" content="#f6efe7">
+    <meta name="msapplication-TileColor" content="#f8fafc">
     <meta property="og:locale" content="zh_CN">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="呐客科技">
-    <meta property="og:title" content="合作模式 | 呐客科技">
-    <meta property="og:description" content="了解品牌增长方案的合作方式，比较标准平台版、独立部署版与联合增长版，看看不同阶段更适合怎样开始、怎样上线、怎样配合。">
+    <meta property="og:title" content="合作方式｜不同阶段的品牌该怎么开始">
+    <meta property="og:description" content="弱化套餐感，强化合作节奏、参与深度和适用场景，让品牌更容易判断当前最合适的推进方式。">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="合作模式 | 呐客科技">
-    <meta name="twitter:description" content="了解品牌增长方案的合作方式，比较标准平台版、独立部署版与联合增长版，看看不同阶段更适合怎样开始、怎样上线、怎样配合。">
-    <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="twitter:title" content="合作方式｜不同阶段的品牌该怎么开始">
+    <meta name="twitter:description" content="弱化套餐感，强化合作节奏、参与深度和适用场景，让品牌更容易判断当前最合适的推进方式。">
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.canonicalUrl %>">
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.canonicalUrl %>">
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.shareImageUrl %>">
+    <meta property="og:image:alt" content="呐客科技合作方式页面主视觉图">
+    <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.shareImageUrl %>">
+    <meta name="twitter:image:alt" content="呐客科技合作方式页面主视觉图">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./favicon.ico" sizes="any">
+    <link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body>
     <%= require("html-loader!../common/header/index.html") %>
-    <main class="models-page">
-        <section class="page-hero models-hero-light">
+    <main class="models-page" id="main-content" tabindex="-1">
+        <div class="models-progress" aria-hidden="true">
+            <span class="models-progress-bar"></span>
+        </div>
+
+        <section class="page-hero models-hero" id="models-hero">
             <div class="page-container models-hero-shell">
-                <div class="models-hero-main surface surface-warm">
-                    <div class="eyebrow">合作模式</div>
-                    <h1>合作方式，按你的阶段来选。</h1>
-                    <p class="lead">有的团队先求快，有的先看安全和权限，也有的需要产品和服务一起进场。我们会先看你的现实约束，再给出更合适的合作方式。</p>
+                <div class="models-hero-copy reveal-item">
+                    <div class="eyebrow">合作方式</div>
+                    <h1>合作方式，不必都一样</h1>
+                    <p class="lead">根据品牌目标、团队配置和项目阶段，匹配更合适的合作深度与推进节奏，让资源投入和业务目标更对得上。</p>
                     <div class="cta-row">
-                        <a class="btn btn-primary" href="#models-navigation">先看适合哪种模式</a>
-                        <a class="btn btn-secondary" href="./contact.html">直接沟通当前阶段</a>
-                    </div>
-                    <div class="hero-points">
-                        <span>先看业务阶段</span>
-                        <span>再看数据安全与上线方式</span>
-                        <span>最后看预算与合作深度</span>
-                    </div>
-                    <div class="stats-strip models-hero-metrics">
-                        <article class="stat-chip">
-                            <strong>3 种合作结构</strong>
-                            <span>标准平台版、独立部署版、联合增长版分别对应不同品牌阶段和推进深度。</span>
-                        </article>
-                        <article class="stat-chip">
-                            <strong>5 个对比点</strong>
-                            <span>适合谁、怎么上线、数据安全、预算逻辑和不适合的情况都需要一起看。</span>
-                        </article>
-                        <article class="stat-chip">
-                            <strong>1 条选择主线</strong>
-                            <span>先看你现在最需要什么，再决定合作方式。</span>
-                        </article>
+                        <a class="btn btn-primary" href="./contact.html">预约合作沟通</a>
+                        <a class="btn btn-secondary" href="./cases.html">查看客户案例</a>
                     </div>
                 </div>
-                <div class="models-hero-side">
-                    <div class="hero-stage models-hero-scene">
-                        <div class="stage-note">
-                            <strong>进入方式</strong>
-                            <p>合作模式先回答“怎么进入你的业务”，再讨论价格、功能和上线方式。</p>
-                        </div>
-                        <div class="models-scene-board"></div>
-                        <div class="models-scene-panel scene-panel-a">
-                            <em>模式一</em>
-                            <strong>标准平台版</strong>
-                            <span>先快起来</span>
-                        </div>
-                        <div class="models-scene-panel scene-panel-b">
-                            <em>模式二</em>
-                            <strong>独立部署版</strong>
-                            <span>先稳边界</span>
-                        </div>
-                        <div class="models-scene-panel scene-panel-c">
-                            <em>模式三</em>
-                            <strong>联合增长版</strong>
-                            <span>先抓落地结果</span>
-                        </div>
-                        <div class="floating-card models-floating-speed">
-                            <small>上线速度</small>
-                            <strong>先验证场景</strong>
-                        </div>
-                        <div class="floating-card models-floating-security">
-                            <small>数据安全</small>
-                            <strong>上线与权限清晰</strong>
-                        </div>
-                        <div class="floating-card models-floating-service">
-                            <small>推进深度</small>
-                            <strong>产品与服务一起进入</strong>
-                        </div>
-                        <div class="scene-caption">
-                            <strong>协作现场</strong>
-                            <span>项目沟通、系统界面、实施排期与品牌团队讨论共同呈现，体现合作推进中的多方配合。</span>
-                        </div>
-                    </div>
-                    <aside class="surface trust-surface models-hero-trust">
-                        <div class="models-trust-stack">
-                            <div class="eyebrow eyebrow-dark">怎么选择</div>
-                            <h3>不同模式，解决不同的进入方式、边界和推进节奏。</h3>
-                            <div class="models-trust-grid">
-                                <article class="trust-card">
-                                    <h3>看阶段</h3>
-                                    <p>是先试点验证，还是已经进入长期经营、需要多个部门一起配合的阶段。</p>
-                                </article>
-                                <article class="trust-card">
-                                    <h3>看边界</h3>
-                                    <p>数据归属、账号权限、系统连接和安全流程会决定合作方式能否顺利推进。</p>
-                                </article>
-                                <article class="trust-card">
-                                    <h3>看承接能力</h3>
-                                    <p>品牌团队是否能独立承接上线、运营和后续优化，也决定合作深度。</p>
-                                </article>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </div>
-        </section>
 
-        <section class="section" id="models-navigation">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>先按现实约束来看，从哪种合作方式开始</h2>
-                    <p>先看你眼下最强的约束：上线速度、数据安全、团队承接，还是需要持续服务。</p>
-                </div>
-                <div class="surface surface-warm models-nav-surface">
-                    <div class="models-nav-grid">
-                        <a class="models-nav-card" href="#model-standard">
-                            <span class="models-nav-index">01</span>
-                            <strong>优先要快</strong>
-                            <p>如果你先想验证业务场景、尽快上线并控制前期投入，通常先看标准平台版。</p>
-                            <span class="models-nav-focus">适合先验证，再逐步扩展</span>
-                        </a>
-                        <a class="models-nav-card" href="#model-private">
-                            <span class="models-nav-index">02</span>
-                            <strong>优先要边界清晰</strong>
-                            <p>如果你对数据归属、独立环境、账号权限和安全流程要求高，优先看独立部署版。</p>
-                            <span class="models-nav-focus">适合对管理和合规要求更高的团队</span>
-                        </a>
-                        <a class="models-nav-card" href="#model-hybrid">
-                            <span class="models-nav-index">03</span>
-                            <strong>优先要结果落地</strong>
-                            <p>如果你既要产品能力，又需要项目推进和运营服务一起配合，优先看联合增长版。</p>
-                            <span class="models-nav-focus">适合系统加服务一起进入</span>
-                        </a>
-                    </div>
-                    <div class="models-nav-legend">
-                        <span>看上线速度</span>
-                        <span>看数据安全与权限要求</span>
-                        <span>看品牌团队是否能独立承接</span>
-                        <span>看预算更偏工具还是偏项目</span>
+                <div class="models-hero-visual reveal-item">
+                    <div class="models-hero-image-card" aria-label="合作方式页首屏主视觉图">
+                        <img
+                            src="<%= require('../../assets/img/models-hero-collaboration.png') %>"
+                            alt="合作方式页首屏协同主视觉图"
+                            width="1672"
+                            height="941"
+                            loading="eager"
+                            decoding="async"
+                            fetchpriority="high"
+                        />
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>3 种模式，分别适合什么阶段</h2>
-                    <p>每种模式都会把适合谁、怎么实施、注意什么讲清。</p>
-                </div>
-                <div class="models-detail-stack">
-                    <section class="surface models-detail-band" id="model-standard">
-                        <div class="models-detail-layout">
-                            <div class="media-card models-detail-media models-detail-media-standard">
-                                <div class="photo-note">
-                                    <strong>快速启动</strong>
-                                    <span>品牌市场团队、标准化活动后台和上线排期同框，重点体现“快”和“低摩擦启动”。</span>
-                                </div>
-                            </div>
-                            <div class="models-detail-content">
-                                <div class="models-detail-heading">
-                                    <span class="tag">模式一</span>
-                                    <h3>标准平台版</h3>
-                                        <p>适合希望快速上线、先验证场景、现有系统资源有限，但已经明确要启动品牌用户经营动作的客户。</p>
-                                </div>
-                                <div class="models-detail-grid">
-                                    <article class="card models-detail-block">
-                                        <h4>适合谁</h4>
-                                        <p>中型消费品牌、新项目试点团队、希望先跑通扫码、入会和复购做法的业务负责人。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>实施方式</h4>
-                                        <p>基于标准产品能力快速配置上线，按既有模块组合场景，实施周期短，适合先验证一条可复制路径。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>数据安全</h4>
-                                        <p>用标准权限和平台能力管理业务数据，适合常规使用，不强调复杂内网接入和深度定制。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>典型预算逻辑</h4>
-                                        <p>以标准年费、模块费和活动配置费为主，前期投入相对可控，适合先低摩擦启动业务。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>什么时候不适合</h4>
-                                        <p>当客户已经明确要求私有环境、复杂系统连接或精细权限管理时，标准平台版通常不是最佳起点。</p>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="surface models-detail-band" id="model-private">
-                        <div class="models-detail-layout models-detail-layout-reverse">
-                            <div class="models-detail-content">
-                                <div class="models-detail-heading">
-                                    <span class="tag">模式二</span>
-                                    <h3>独立部署版</h3>
-                                    <p>适合对数据主权、安全合规、内网环境和组织级数据管理要求更高的客户，重点不是上线最快，而是边界最稳。</p>
-                                </div>
-                                <div class="models-detail-grid">
-                                    <article class="card models-detail-block">
-                                        <h4>适合谁</h4>
-                                        <p>大型品牌集团、强安全管理组织、需要与现有系统深度配合、对数据归属和记录留存要求明确的客户。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>实施方式</h4>
-                                        <p>围绕部署环境、账号权限、系统连接、流程记录和运维边界进行项目化实施，前期准备更完整。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>数据安全</h4>
-                                        <p>更强调客户自有环境、访问控制、权限管理与记录留存，适合把数据和系统边界明确留在客户自己的环境里。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>典型预算逻辑</h4>
-                                        <p>以部署实施费、授权费、系统连接费和运维保障费构成，预算更偏项目制与长期投入。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>什么时候不适合</h4>
-                                        <p>如果当前业务还在试点期、决策链过长且尚未确认长期投入，独立部署会把启动门槛拉得过高。</p>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="media-card models-detail-media models-detail-media-private">
-                                <div class="photo-note">
-                                    <strong>边界清晰</strong>
-                                    <span>账号权限、项目排期和安全说明资料共同呈现，体现清晰的数据与配合边界。</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="surface models-detail-band" id="model-hybrid">
-                        <div class="models-detail-layout">
-                            <div class="media-card models-detail-media models-detail-media-hybrid">
-                                <div class="photo-note">
-                                    <strong>联合推进</strong>
-                                    <span>运营例会、项目排期、活动配置和用户分层信息共同呈现，强调产品能力和服务执行一起进场。</span>
-                                </div>
-                            </div>
-                            <div class="models-detail-content">
-                                <div class="models-detail-heading">
-                                    <span class="tag">模式三</span>
-                                    <h3>联合增长版</h3>
-                                        <p>适合已经确认要做长期经营，但品牌团队暂时难以独立完成产品配置、项目推进和持续运营的客户。</p>
-                                </div>
-                                <div class="models-detail-grid">
-                                    <article class="card models-detail-block">
-                                        <h4>适合谁</h4>
-                                        <p>希望快速看到落地结果、现有资源有限、需要服务团队共同推动策略、项目和执行的品牌团队。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>实施方式</h4>
-                                        <p>产品能力、业务策略、项目管理和阶段运营一起进入，通常以季度或年度合作形式推进。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>数据安全</h4>
-                                        <p>先把账号权限、数据流转和交付范围说清楚，再由项目团队一起推进和回看结果。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>典型预算逻辑</h4>
-                                        <p>预算通常由产品费用、实施费用和运营服务费用组成，更偏结果导向和阶段目标管理。</p>
-                                    </article>
-                                    <article class="card models-detail-block">
-                                        <h4>什么时候不适合</h4>
-                                        <p>如果客户只需要一个工具账号，不希望外部团队参与项目节奏与运营动作，这种模式反而会过重。</p>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>一张对比表，帮你更快对号入座</h2>
-                    <p>先用清晰维度完成快速比较，再进入更详细的方案、预算与实施评估。</p>
-                </div>
-                <div class="surface surface-warm models-compare-surface">
-                    <div class="models-compare-head">
-                        <article class="card models-compare-summary">
-                            <span class="tag">快速比较</span>
-                            <h3>如果你最关注的是尽快上线，通常从标准平台版开始；如果最关注数据与权限边界，优先考虑独立部署；如果最关注推进结果和持续执行，则更适合联合增长版。</h3>
-                            <p>很多合作升级不是推翻重来，而是随着品牌经营阶段变化，从轻合作逐步走向更深合作结构。</p>
+        <section class="section models-story-section" id="model-pilot">
+            <div class="page-container models-story-shell">
+                <div class="models-story-copy reveal-item">
+                    <span class="tag">合作段 01</span>
+                    <h2>适合先试点、先验证的品牌</h2>
+                    <p>当品牌还在评估优先级时，更适合围绕重点产品线、重点渠道或重点活动先做小范围试点，把结果跑出来，再决定后续投入。</p>
+                    <div class="models-benefit-list">
+                        <article class="models-benefit-card">
+                            <h3>降低前期投入和试错压力</h3>
+                            <p>不急着一次性铺开，先把关键路径跑顺，再决定后续要不要扩展。</p>
                         </article>
-                        <aside class="card models-compare-side">
-                            <span class="tag">阅读提示</span>
-                            <p>先看“你当前最难的是什么”，再看“团队能承接什么”，最后看预算结构与长期投入意愿。</p>
-                        </aside>
-                    </div>
-                    <div class="models-compare-grid" role="list" aria-label="合作模式比较">
-                        <article class="card compare-mode-card" role="listitem">
-                            <span class="matrix-stage-label">标准平台版</span>
-                            <h3>适合先起步</h3>
-                            <p>上线速度快，投入更轻，适合先把一条业务做法跑通。</p>
-                            <div class="matrix-meta-row">
-                                <span>核心优势：启动门槛低</span>
-                                <span>主要风险：复杂边界承接有限</span>
-                            </div>
+                        <article class="models-benefit-card">
+                            <h3>更快验证结果变化</h3>
+                            <p>优先看留资、活跃或复购的改善迹象，让决策建立在具体反馈上。</p>
                         </article>
-                        <article class="card compare-mode-card" role="listitem">
-                            <span class="matrix-stage-label">独立部署版</span>
-                            <h3>适合先稳边界</h3>
-                            <p>部署、权限、记录和系统连接更稳，更适合对数据管理要求更清楚的大组织。</p>
-                            <div class="matrix-meta-row">
-                                <span>核心优势：数据与权限清晰</span>
-                                <span>主要风险：前期准备周期更长</span>
-                            </div>
-                        </article>
-                        <article class="card compare-mode-card" role="listitem">
-                            <span class="matrix-stage-label">联合增长版</span>
-                            <h3>适合先抓结果</h3>
-                            <p>产品、项目与运营一起推进，适合现有资源有限但业务目标明确的团队。</p>
-                            <div class="matrix-meta-row">
-                                <span>核心优势：落地推进更完整</span>
-                                <span>主要风险：合作深度更高</span>
-                            </div>
+                        <article class="models-benefit-card">
+                            <h3>为后续放大提供依据</h3>
+                            <p>试点不是终点，而是帮团队看清后续值得加码的方向。</p>
                         </article>
                     </div>
-                    <div class="models-fit-tags">
-                        <span>试点验证期可先轻量进入</span>
-                        <span>高合规组织优先考虑边界清晰的方式</span>
-                        <span>结果导向团队更适合产品加服务</span>
+                </div>
+                <div class="models-story-visual reveal-item">
+                    <div class="models-visual-card visual-pilot">
+                        <div class="models-visual-media">
+                            <img
+                                src="<%= require('../../assets/img/models-pilot-collaboration.png') %>"
+                                alt="试点合作视觉图"
+                                width="1448"
+                                height="1086"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+                        <div class="models-rhythm-card">
+                            <small>合作节奏</small>
+                            <strong>2 到 4 周看验证结果</strong>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>合作推进通常分三步，而不是一次谈完所有细节</h2>
-                    <p>先把当前情况看清楚，再确定合作方式，最后进入实施准备，能让决策链更短，也更利于多方沟通。</p>
+        <section class="section models-story-section" id="model-project">
+            <div class="page-container models-story-shell is-reverse">
+                <div class="models-story-copy reveal-item">
+                    <span class="tag">合作段 02</span>
+                    <h2>适合围绕新品、节点和动销集中推进</h2>
+                    <p>如果品牌已经明确要做某一场活动、某一波新品推广或某一条产品线的动销项目，就更适合用项目制方式快速组织资源、明确节奏、集中落地。</p>
+                    <div class="models-benefit-list">
+                        <article class="models-benefit-card">
+                            <h3>目标与执行更清楚</h3>
+                            <p>每个阶段都围绕同一个项目目标推进，避免动作分散、资源失焦。</p>
+                        </article>
+                        <article class="models-benefit-card">
+                            <h3>前端传播与后端承接更连贯</h3>
+                            <p>把传播、现场执行和用户后续承接接成同一条链路。</p>
+                        </article>
+                        <article class="models-benefit-card">
+                            <h3>项目结束后更容易复盘</h3>
+                            <p>阶段节点、投入动作和结果回看都更清晰，方便继续复制。</p>
+                        </article>
+                    </div>
                 </div>
-                <div class="surface models-process-surface">
-                    <div class="models-process-grid">
-                        <article class="card models-process-card">
-                            <span class="tag">第一步</span>
-                            <h3>确认阶段与目标</h3>
-                            <p>先确认你眼下更重要的是试点验证、数据管理，还是要在短期内把业务结果跑出来。</p>
+                <div class="models-story-visual reveal-item">
+                    <div class="models-visual-card visual-project">
+                        <div class="models-visual-media">
+                            <img
+                                src="<%= require('../../assets/img/models-project-collaboration.png') %>"
+                                alt="项目制合作视觉图"
+                                width="1448"
+                                height="1086"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+                        <div class="models-rhythm-card">
+                            <small>合作节奏</small>
+                            <strong>按节点集中推进与复盘</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section models-story-section" id="model-retainer">
+            <div class="page-container models-story-shell">
+                <div class="models-story-copy reveal-item">
+                    <span class="tag">合作段 03</span>
+                    <h2>适合把会员和复购做成长动作的品牌</h2>
+                    <p>当品牌不再只看单次活动，而是希望持续提升会员活跃、复购和用户粘性时，更需要稳定的节奏、固定的协同与连续的优化。</p>
+                    <div class="models-benefit-list">
+                        <article class="models-benefit-card">
+                            <h3>会员运营和节点活动更有连续性</h3>
+                            <p>不再每次从零开始，而是在稳定节奏里持续迭代动作。</p>
                         </article>
-                        <article class="card models-process-card">
-                            <span class="tag">第二步</span>
-                            <h3>明确边界与承接</h3>
-                            <p>把上线方式、账号权限、参与人、系统连接范围和服务深度先讲清楚，避免后续反复返工。</p>
+                        <article class="models-benefit-card">
+                            <h3>内容、权益和复购动作更容易配合</h3>
+                            <p>把触达、权益和运营复盘串成月度或季度节拍。</p>
                         </article>
-                        <article class="card models-process-card">
-                            <span class="tag">第三步</span>
-                            <h3>进入方案与排期</h3>
-                            <p>确认合作结构后，再进入实施计划、里程碑、预算说明和后续交付路径，推进会更顺畅。</p>
+                        <article class="models-benefit-card">
+                            <h3>阶段结果更容易追踪和优化</h3>
+                            <p>通过连续观察，逐步看清哪些运营动作更有效。</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="models-story-visual reveal-item">
+                    <div class="models-visual-card visual-retainer">
+                        <div class="models-visual-media">
+                            <img
+                                src="<%= require('../../assets/img/models-retainer-collaboration.png') %>"
+                                alt="长周期陪跑视觉图"
+                                width="1448"
+                                height="1086"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+                        <div class="models-rhythm-card">
+                            <small>合作节奏</small>
+                            <strong>固定节拍，连续优化</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section models-story-section" id="model-channel">
+            <div class="page-container models-story-shell is-reverse">
+                <div class="models-story-copy reveal-item">
+                    <span class="tag">合作段 04</span>
+                    <h2>适合多门店、多区域同时推进的品牌</h2>
+                    <p>当品牌同时面对多门店、多区域和多合作方时，合作重点不只是执行，更是统一方法、统一节奏和统一复盘口径。</p>
+                    <div class="models-benefit-list">
+                        <article class="models-benefit-card">
+                            <h3>不同区域和渠道动作更容易协同</h3>
+                            <p>先把方法和节奏对齐，再让各区域落地执行，减少各做各的情况。</p>
+                        </article>
+                        <article class="models-benefit-card">
+                            <h3>终端活动和用户承接更容易统一</h3>
+                            <p>门店、区域和合作方能围绕同一套目标与复盘口径协作。</p>
+                        </article>
+                        <article class="models-benefit-card">
+                            <h3>复制与扩展更有基础</h3>
+                            <p>当方法跑顺后，后续跨区域复制和持续扩展会更稳。</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="models-story-visual reveal-item">
+                    <div class="models-visual-card visual-channel">
+                        <div class="models-visual-media">
+                            <img
+                                src="<%= require('../../assets/img/models-channel-collaboration.png') %>"
+                                alt="多渠道协同视觉图"
+                                width="1448"
+                                height="1086"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </div>
+                        <div class="models-rhythm-card">
+                            <small>合作节奏</small>
+                            <strong>统一推进，统一复盘</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="models-compare">
+            <div class="page-container">
+                <div class="models-compare-panel models-surface reveal-item">
+                    <div class="section-head">
+                        <div class="eyebrow">合作方式对比</div>
+                        <h2>合作方式的差别，在于目标和投入是否匹配</h2>
+                        <p>合作深度、项目节奏和品牌阶段更贴合时，团队协作会更顺。</p>
+                    </div>
+                    <div class="models-compare-grid">
+                        <article class="models-compare-card">
+                            <span class="models-choice-index">01</span>
+                            <strong>诊断与试点</strong>
+                            <p>适合还在判断方向，想先验证一段结果的品牌。</p>
+                            <ul class="models-compare-points">
+                                <li>合作周期偏短，更适合先跑重点场景。</li>
+                                <li>目标重点是看方向对不对、路径能不能跑通。</li>
+                                <li>协同深度围绕单点项目展开。</li>
+                            </ul>
+                        </article>
+                        <article class="models-compare-card">
+                            <span class="models-choice-index">02</span>
+                            <strong>项目制合作</strong>
+                            <p>适合已有明确项目，要围绕某个节点集中推进的品牌。</p>
+                            <ul class="models-compare-points">
+                                <li>合作节奏跟着项目排期走。</li>
+                                <li>目标重点是把一波新品、活动或动销项目跑透。</li>
+                                <li>协同深度围绕上线、执行与复盘展开。</li>
+                            </ul>
+                        </article>
+                        <article class="models-compare-card is-emphasis">
+                            <span class="models-choice-index">03</span>
+                            <strong>长周期陪跑</strong>
+                            <p>适合已经有基础，希望把会员和复购做成长动作的品牌。</p>
+                            <ul class="models-compare-points">
+                                <li>更适合月度或季度持续推进。</li>
+                                <li>目标重点是活跃、复购和长期经营结果。</li>
+                                <li>协同深度更稳定，也更强调连续优化。</li>
+                            </ul>
+                        </article>
+                        <article class="models-compare-card">
+                            <span class="models-choice-index">04</span>
+                            <strong>多渠道协同</strong>
+                            <p>适合总部、区域、门店和合作方同时在动的大体量品牌。</p>
+                            <ul class="models-compare-points">
+                                <li>合作周期更长，适合统一方法后持续复制。</li>
+                                <li>目标重点是统一节奏、统一复盘和统一方法。</li>
+                                <li>协同深度覆盖多团队与多区域。</li>
+                            </ul>
                         </article>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="models-cta">
             <div class="page-container">
-                <div class="surface trust-surface models-cta-surface">
-                    <div class="models-cta-layout">
-                        <div class="models-cta-copy">
-                            <div class="eyebrow eyebrow-dark">下一步</div>
-                            <h2>如果你已经大致有方向，下一步可以直接沟通当前阶段和约束条件。</h2>
-                            <p>沟通时建议优先带上四类信息：当前业务目标、负责团队、数据安全与权限要求、预计推进时间。这样更容易更快看清适合哪种合作方式。</p>
-                        </div>
-                        <div class="models-cta-actions">
-                            <a class="btn btn-primary" href="./contact.html">预约商务沟通</a>
-                            <a class="btn btn-secondary" href="./solution.html">先看整体解决方案</a>
-                        </div>
+                <div class="models-cta-panel models-surface reveal-item">
+                    <div class="models-cta-copy">
+                        <div class="eyebrow">下一步</div>
+                        <h2>先判断目标，再选合作方式</h2>
+                        <p>从试点、项目制、长期陪跑或多渠道协同中，梳理更贴近当前业务需求的合作路径。</p>
+                    </div>
+                    <div class="models-cta-actions">
+                        <a class="btn btn-primary" href="./contact.html">预约合作沟通</a>
+                        <a class="btn btn-secondary" href="./contact.html#business-consulting">进入商务咨询</a>
                     </div>
                 </div>
             </div>

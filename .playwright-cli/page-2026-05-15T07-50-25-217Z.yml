@@ -1,0 +1,216 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 合作方式
+        - heading "合作方式，不必都一样" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 根据品牌目标、团队配置和项目阶段，匹配更合适的合作深度与推进节奏，让资源投入和业务目标更对得上。
+        - generic [ref=e27]:
+          - link "预约合作沟通" [ref=e28] [cursor=pointer]:
+            - /url: ./contact.html
+          - link "查看客户案例" [ref=e29] [cursor=pointer]:
+            - /url: ./cases.html
+        - generic "合作判断要点" [ref=e30]:
+          - generic [ref=e31]: 先看现在处在哪个阶段
+          - generic [ref=e32]: 再看适合哪种推进节奏
+          - generic [ref=e33]: 最后再决定协同深度
+      - generic "合作判断台" [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: 合作判断台
+          - heading "先看阶段，再定合作深度" [level=2] [ref=e38]
+        - tablist "合作阶段选择" [ref=e39]:
+          - button "01 先验证方向 目标还在聚焦，先看要不要从小范围试点开始。" [pressed] [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: "01"
+            - strong [ref=e42]: 先验证方向
+            - paragraph [ref=e43]: 目标还在聚焦，先看要不要从小范围试点开始。
+          - button "02 集中推一波项目 目标和节点清楚，重点是资源组织和上线节奏。" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: "02"
+            - strong [ref=e46]: 集中推一波项目
+            - paragraph [ref=e47]: 目标和节点清楚，重点是资源组织和上线节奏。
+          - button "03 把运营做成长动作 基础已具备，重点转向连续协同和持续优化。" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: "03"
+            - strong [ref=e50]: 把运营做成长动作
+            - paragraph [ref=e51]: 基础已具备，重点转向连续协同和持续优化。
+          - button "04 多团队同时协同 组织复杂度高，需要统一方法、节奏和复盘口径。" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: "04"
+            - strong [ref=e54]: 多团队同时协同
+            - paragraph [ref=e55]: 组织复杂度高，需要统一方法、节奏和复盘口径。
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: 当前建议
+            - strong [ref=e59]: 诊断与试点合作
+            - paragraph [ref=e60]: 适合还在判断方向、想先验证一段结果的品牌，先跑通一段小范围路径，再决定是否放大。
+          - generic [ref=e61]:
+            - generic [ref=e62]: 验证强度
+            - generic [ref=e63]: 协同深度
+            - generic [ref=e64]: 复制范围
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: 合作段 01
+        - heading "适合先试点、先验证的品牌" [level=2] [ref=e69]
+        - paragraph [ref=e70]: 当品牌还在评估优先级时，更适合围绕重点产品线、重点渠道或重点活动先做小范围试点，把结果跑出来，再决定后续投入。
+        - generic [ref=e71]:
+          - article [ref=e72]:
+            - heading "降低前期投入和试错压力" [level=3] [ref=e73]
+            - paragraph [ref=e74]: 不急着一次性铺开，先把关键路径跑顺，再决定后续要不要扩展。
+          - article [ref=e75]:
+            - heading "更快验证结果变化" [level=3] [ref=e76]
+            - paragraph [ref=e77]: 优先看留资、活跃或复购的改善迹象，让决策建立在具体反馈上。
+          - article [ref=e78]:
+            - heading "为后续放大提供依据" [level=3] [ref=e79]
+            - paragraph [ref=e80]: 试点不是终点，而是帮团队看清后续值得加码的方向。
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: 重点产品线
+          - generic [ref=e85]: 活动验证节点
+          - generic [ref=e86]: 小范围试点
+        - generic [ref=e87]:
+          - generic [ref=e88]: 合作节奏
+          - strong [ref=e89]: 2 到 4 周看验证结果
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]: 合作段 02
+        - heading "适合围绕新品、节点和动销集中推进" [level=2] [ref=e94]
+        - paragraph [ref=e95]: 如果品牌已经明确要做某一场活动、某一波新品推广或某一条产品线的动销项目，就更适合用项目制方式快速组织资源、明确节奏、集中落地。
+        - generic [ref=e96]:
+          - article [ref=e97]:
+            - heading "目标与执行更清楚" [level=3] [ref=e98]
+            - paragraph [ref=e99]: 每个阶段都围绕同一个项目目标推进，避免动作分散、资源失焦。
+          - article [ref=e100]:
+            - heading "前端传播与后端承接更连贯" [level=3] [ref=e101]
+            - paragraph [ref=e102]: 把传播、现场执行和用户后续承接接成同一条链路。
+          - article [ref=e103]:
+            - heading "项目结束后更容易复盘" [level=3] [ref=e104]
+            - paragraph [ref=e105]: 阶段节点、投入动作和结果回看都更清晰，方便继续复制。
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: 新品上线排期
+          - generic [ref=e110]: 节点营销资源
+          - generic [ref=e111]: 门店动销承接
+        - generic [ref=e112]:
+          - generic [ref=e113]: 合作节奏
+          - strong [ref=e114]: 按节点集中推进与复盘
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]: 合作段 03
+        - heading "适合把会员和复购做成长动作的品牌" [level=2] [ref=e119]
+        - paragraph [ref=e120]: 当品牌不再只看单次活动，而是希望持续提升会员活跃、复购和用户粘性时，更需要稳定的节奏、固定的协同与连续的优化。
+        - generic [ref=e121]:
+          - article [ref=e122]:
+            - heading "会员运营和节点活动更有连续性" [level=3] [ref=e123]
+            - paragraph [ref=e124]: 不再每次从零开始，而是在稳定节奏里持续迭代动作。
+          - article [ref=e125]:
+            - heading "内容、权益和复购动作更容易配合" [level=3] [ref=e126]
+            - paragraph [ref=e127]: 把触达、权益和运营复盘串成月度或季度节拍。
+          - article [ref=e128]:
+            - heading "阶段结果更容易追踪和优化" [level=3] [ref=e129]
+            - paragraph [ref=e130]: 通过连续观察，逐步看清哪些运营动作更有效。
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]: 内容触达
+          - generic [ref=e135]: 权益提醒
+          - generic [ref=e136]: 复购动作
+          - generic [ref=e137]: 月度复盘
+        - generic [ref=e138]:
+          - generic [ref=e139]: 合作节奏
+          - strong [ref=e140]: 固定节拍，连续优化
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]: 合作段 04
+        - heading "适合多门店、多区域同时推进的品牌" [level=2] [ref=e145]
+        - paragraph [ref=e146]: 当品牌同时面对多门店、多区域和多合作方时，合作重点不只是执行，更是统一方法、统一节奏和统一复盘口径。
+        - generic [ref=e147]:
+          - article [ref=e148]:
+            - heading "不同区域和渠道动作更容易协同" [level=3] [ref=e149]
+            - paragraph [ref=e150]: 先把方法和节奏对齐，再让各区域落地执行，减少各做各的情况。
+          - article [ref=e151]:
+            - heading "终端活动和用户承接更容易统一" [level=3] [ref=e152]
+            - paragraph [ref=e153]: 门店、区域和合作方能围绕同一套目标与复盘口径协作。
+          - article [ref=e154]:
+            - heading "复制与扩展更有基础" [level=3] [ref=e155]
+            - paragraph [ref=e156]: 当方法跑顺后，后续跨区域复制和持续扩展会更稳。
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: 总部策略
+          - generic [ref=e161]: 区域执行
+          - generic [ref=e162]: 门店协同
+          - generic [ref=e163]: 合作方复盘
+        - generic [ref=e164]:
+          - generic [ref=e165]: 合作节奏
+          - strong [ref=e166]: 统一推进，统一复盘
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e171]: 合作方式对比
+        - heading "合作方式的差别，在于目标和投入是否匹配" [level=2] [ref=e172]
+        - paragraph [ref=e173]: 当合作深度、项目节奏和品牌阶段更贴合时，团队协作会更顺，结果也更容易稳定出现。
+      - generic [ref=e174]:
+        - article [ref=e175]:
+          - generic [ref=e176]: "01"
+          - strong [ref=e177]: 诊断与试点
+          - paragraph [ref=e178]: 适合还在判断方向，想先验证一段结果的品牌。
+          - list [ref=e179]:
+            - listitem [ref=e180]: 合作周期偏短，更适合先跑重点场景。
+            - listitem [ref=e181]: 目标重点是看方向对不对、路径能不能跑通。
+            - listitem [ref=e182]: 协同深度围绕单点项目展开。
+        - article [ref=e183]:
+          - generic [ref=e184]: "02"
+          - strong [ref=e185]: 项目制合作
+          - paragraph [ref=e186]: 适合已有明确项目，要围绕某个节点集中推进的品牌。
+          - list [ref=e187]:
+            - listitem [ref=e188]: 合作节奏跟着项目排期走。
+            - listitem [ref=e189]: 目标重点是把一波新品、活动或动销项目跑透。
+            - listitem [ref=e190]: 协同深度围绕上线、执行与复盘展开。
+        - article [ref=e191]:
+          - generic [ref=e192]: "03"
+          - strong [ref=e193]: 长周期陪跑
+          - paragraph [ref=e194]: 适合已经有基础，希望把会员和复购做成长动作的品牌。
+          - list [ref=e195]:
+            - listitem [ref=e196]: 更适合月度或季度持续推进。
+            - listitem [ref=e197]: 目标重点是活跃、复购和长期经营结果。
+            - listitem [ref=e198]: 协同深度更稳定，也更强调连续优化。
+        - article [ref=e199]:
+          - generic [ref=e200]: "04"
+          - strong [ref=e201]: 多渠道协同
+          - paragraph [ref=e202]: 适合总部、区域、门店和合作方同时在动的大体量品牌。
+          - list [ref=e203]:
+            - listitem [ref=e204]: 合作周期更长，适合统一方法后持续复制。
+            - listitem [ref=e205]: 目标重点是统一节奏、统一复盘和统一方法。
+            - listitem [ref=e206]: 协同深度覆盖多团队与多区域。
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]: 下一步
+        - heading "先判断目标，再选合作方式" [level=2] [ref=e212]
+        - paragraph [ref=e213]: 从试点、项目制、长期陪跑或多渠道协同中，梳理更贴近当前业务需求的合作路径。
+      - generic [ref=e214]:
+        - link "预约合作沟通" [ref=e215] [cursor=pointer]:
+          - /url: ./contact.html
+        - link "进入商务咨询" [ref=e216] [cursor=pointer]:
+          - /url: ./contact.html#business-consulting
+  - contentinfo [ref=e217]:
+    - paragraph [ref=e219]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

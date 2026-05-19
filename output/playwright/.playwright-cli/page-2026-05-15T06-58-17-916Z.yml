@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 商务咨询
+        - heading "先把方向和起点看清楚，再决定是不是现在开始" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 无论你还在评估、已经做过试点，还是希望优化现有动作，都可以先围绕品牌现状、重点场景和经营目标做一次梳理。
+        - generic [ref=e27]:
+          - link "提交咨询信息" [ref=e28] [cursor=pointer]:
+            - /url: "#contact-form-panel"
+          - link "查看解决方案" [ref=e29] [cursor=pointer]:
+            - /url: ./solution.html
+        - generic [ref=e30]:
+          - generic [ref=e31]: 先看值不值得现在开始
+          - generic [ref=e32]: 先判断更适合从哪里切入
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 一次沟通能得到什么
+          - strong [ref=e37]: 先把现状、重点和起点梳理清楚
+          - paragraph [ref=e38]: 沟通的目标不是立刻推进项目，而是帮助团队先判断更适合从哪里开始，以及短期内更值得做什么。
+        - generic [ref=e39]:
+          - article [ref=e40]:
+            - strong [ref=e41]: 现状判断
+            - generic [ref=e42]: 先看品牌现在最卡在哪里
+          - article [ref=e43]:
+            - strong [ref=e44]: 重点排序
+            - generic [ref=e45]: 先看当前最值得优先推进什么
+          - article [ref=e46]:
+            - strong [ref=e47]: 起步建议
+            - generic [ref=e48]: 先看更适合从试点还是长期动作开始
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]: 提交当前情况
+        - heading "把当前情况交给我们，先帮你判断最值得从哪里开始" [level=2] [ref=e54]
+        - paragraph [ref=e55]: 围绕品牌阶段、重点产品、活动节奏和目标结果，梳理更值得优先推进的事项，再进入下一步沟通。
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: 联系人姓名
+            - textbox "联系人姓名" [ref=e60]:
+              - /placeholder: 请填写联系人姓名
+          - generic [ref=e62]:
+            - generic [ref=e63]: 联系电话
+            - textbox "联系电话" [ref=e64]:
+              - /placeholder: 请填写方便联系的手机号
+          - generic [ref=e66]:
+            - generic [ref=e67]: 公司 / 品牌
+            - textbox "公司 / 品牌" [ref=e68]:
+              - /placeholder: 请填写公司或品牌名称
+          - generic [ref=e70]:
+            - generic [ref=e71]: 所属行业
+            - textbox "所属行业" [ref=e72]:
+              - /placeholder: 如快消、酒水、食品、零售
+          - generic [ref=e73]:
+            - generic [ref=e74]: 当前渠道结构
+            - textbox "当前渠道结构" [ref=e75]:
+              - /placeholder: 如线下门店 / 电商 / 经销 / 社群
+          - generic [ref=e76]:
+            - generic [ref=e77]: 优先沟通方向
+            - textbox "优先沟通方向" [ref=e78]:
+              - /placeholder: 如解决方案 / 产品演示 / 合作模式
+          - generic [ref=e79]:
+            - generic [ref=e80]: 当前想优先解决的问题
+            - textbox "当前想优先解决的问题" [ref=e81]:
+              - /placeholder: 尽量补充当前重点场景、目标结果，或最担心的问题
+        - generic [ref=e83]:
+          - button "提交咨询信息" [ref=e84] [cursor=pointer]
+          - status [ref=e85]
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]: 沟通产出
+        - heading "一次沟通，先帮你把现状、重点和起点梳理清楚" [level=2] [ref=e90]
+        - paragraph [ref=e91]: 我们会围绕品牌当前的渠道触点、活动节奏、产品重点和会员目标，判断更适合先从哪里切入，以及短期内更值得做什么。
+        - list [ref=e92]:
+          - listitem [ref=e93]: 看清当前最值得优先推进的方向
+          - listitem [ref=e94]: 看清更适合从试点、项目还是长期动作开始
+          - listitem [ref=e95]: 看清后续可能需要怎样的配合方式
+      - generic [ref=e97]:
+        - generic [ref=e98]: 沟通产出
+        - generic [ref=e99]:
+          - article [ref=e100]:
+            - strong [ref=e101]: 问题梳理
+            - generic [ref=e102]: 先把现在最核心的问题说清楚
+          - article [ref=e103]:
+            - strong [ref=e104]: 场景判断
+            - generic [ref=e105]: 先看哪个入口更值得优先推进
+          - article [ref=e106]:
+            - strong [ref=e107]: 起步建议
+            - generic [ref=e108]: 先定更合适的启动方式和节奏
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]: 信任补充
+        - heading "沟通不是为了立刻上项目，而是先把判断做清楚" [level=2] [ref=e114]
+        - paragraph [ref=e115]: 先看值不值得现在开始，再看适合从哪里切入。方向清楚之后，后面的方案、演示和合作评估都会更顺。
+      - generic [ref=e116]:
+        - article [ref=e117]:
+          - generic [ref=e118]: 更适合先来聊的人
+          - strong [ref=e119]: 正在做活动、动销、会员或新品推广，想先看优先级和起步方式的团队
+        - article [ref=e120]:
+          - generic [ref=e121]: 首次沟通通常会看
+          - strong [ref=e122]: 品牌阶段、重点场景、当前目标、资源约束和团队分工
+        - article [ref=e123]:
+          - generic [ref=e124]: 常见后续路径
+          - strong [ref=e125]: 继续看方案、约产品演示，或进入更具体的合作评估
+  - contentinfo [ref=e126]:
+    - paragraph [ref=e128]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

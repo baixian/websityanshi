@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 安全保障
+        - heading "先把边界和保障看清楚，再做增长" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 围绕数据、权限、风控和服务，先把基础保障说明白。
+        - generic [ref=e27]:
+          - link "了解保障机制" [ref=e28] [cursor=pointer]:
+            - /url: "#security-data"
+          - link "预约沟通" [ref=e29] [cursor=pointer]:
+            - /url: ./contact.html
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: 保障框架
+          - strong [ref=e34]: 把处理边界、执行权限和服务配合讲在前面
+        - generic [ref=e35]:
+          - article [ref=e36]:
+            - strong [ref=e37]: 数据处理
+            - paragraph [ref=e38]: 先说明信息边界和处理方式
+          - article [ref=e39]:
+            - strong [ref=e40]: 权限分工
+            - paragraph [ref=e41]: 先看谁配置、谁查看、谁执行
+          - article [ref=e42]:
+            - strong [ref=e43]: 活动风控
+            - paragraph [ref=e44]: 先确认发放、核销和异常处理
+          - article [ref=e45]:
+            - strong [ref=e46]: 服务支持
+            - paragraph [ref=e47]: 先确定上线、响应和复盘节奏
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]: 重点一
+        - heading "用户信息，首先要在清晰边界里处理" [level=2] [ref=e52]
+        - paragraph [ref=e53]: 对品牌来说，增长项目不能只看结果，还要看过程是否规范、边界是否清楚，避免因为处理不当影响品牌信任。
+        - list [ref=e54]:
+          - listitem [ref=e55]: 降低推进过程中的不确定感
+          - listitem [ref=e56]: 让内部团队对处理边界更有共识
+          - listitem [ref=e57]: 让后续会员和活动动作更放心展开
+      - generic [ref=e59]:
+        - generic [ref=e60]: 数据处理
+        - generic [ref=e61]:
+          - article [ref=e62]:
+            - strong [ref=e63]: 数据范围
+            - generic [ref=e64]: 先定义信息边界
+          - article [ref=e65]:
+            - strong [ref=e66]: 处理路径
+            - generic [ref=e67]: 让组织知道过程怎么走
+          - article [ref=e68]:
+            - strong [ref=e69]: 结果留存
+            - generic [ref=e70]: 后续复核有依据
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: 重点二
+        - heading "配置、查看和执行权限，要提前划清" [level=2] [ref=e75]
+        - paragraph [ref=e76]: 当品牌、门店、渠道和服务团队同时参与项目时，清晰的权限分工能够减少误操作，也能让日常协作更顺畅。
+        - list [ref=e77]:
+          - listitem [ref=e78]: 提升团队协作中的清晰度
+          - listitem [ref=e79]: 降低多角色参与时的管理风险
+          - listitem [ref=e80]: 让活动配置和日常运营更有秩序
+      - generic [ref=e82]:
+        - generic [ref=e83]: 权限分工
+        - generic [ref=e84]:
+          - article [ref=e85]:
+            - strong [ref=e86]: 品牌团队
+            - generic [ref=e87]: 看整体、定边界
+          - article [ref=e88]:
+            - strong [ref=e89]: 运营团队
+            - generic [ref=e90]: 做配置、跑动作
+          - article [ref=e91]:
+            - strong [ref=e92]: 管理角色
+            - generic [ref=e93]: 看审批、看关键记录
+          - article [ref=e94]:
+            - strong [ref=e95]: 服务角色
+            - generic [ref=e96]: 按范围协助推进
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]: 重点三
+        - heading "发放、核销和异常处理，都要有稳妥机制" [level=2] [ref=e101]
+        - paragraph [ref=e102]: 在高频活动和多场景触达中，品牌最担心的往往不是能不能做，而是做起来会不会乱。越是涉及发放和核销，越需要把执行边界和异常处理准备好。
+        - list [ref=e103]:
+          - listitem [ref=e104]: 让奖励发放和活动执行更容易管理
+          - listitem [ref=e105]: 让异常情况更容易被发现和处理
+          - listitem [ref=e106]: 让大促和重点节点推进得更稳
+      - generic [ref=e108]:
+        - generic [ref=e109]: 活动风控
+        - generic [ref=e110]:
+          - generic [ref=e111]: 预算与规则确认
+          - generic [ref=e112]: 活动执行监看
+          - generic [ref=e113]: 异常提醒与处理
+          - generic [ref=e114]: 结果核对与复盘
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]: 重点四
+        - heading "项目走得稳，还要靠持续协同" [level=2] [ref=e119]
+        - paragraph [ref=e120]: 从前期方案确认，到活动上线、问题响应和阶段复盘，稳定的服务配合会直接影响品牌团队对项目的信心和推进效率。
+        - list [ref=e121]:
+          - listitem [ref=e122]: 提升项目推进的连续性
+          - listitem [ref=e123]: 提升问题响应和调整效率
+          - listitem [ref=e124]: 提升长期协同的可执行性
+      - generic [ref=e126]:
+        - generic [ref=e127]: 服务支持
+        - generic [ref=e128]:
+          - article [ref=e129]:
+            - strong [ref=e130]: 前期确认
+            - generic [ref=e131]: 把边界和责任先讲清楚
+          - article [ref=e132]:
+            - strong [ref=e133]: 上线支持
+            - generic [ref=e134]: 关键节点有人协同
+          - article [ref=e135]:
+            - strong [ref=e136]: 问题响应
+            - generic [ref=e137]: 异常出现后有处理节奏
+          - article [ref=e138]:
+            - strong [ref=e139]: 阶段复盘
+            - generic [ref=e140]: 后续优化有明确抓手
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]: 保障收口
+        - heading "保障不是附加项，而是长期推进的基础" [level=2] [ref=e146]
+        - paragraph [ref=e147]: 处理方式、协作边界和服务节奏稳定，项目才更容易长期推进。
+      - generic [ref=e148]:
+        - article [ref=e149]:
+          - strong [ref=e150]: 边界说明
+          - paragraph [ref=e151]: 数据处理、权限分工、活动风控和服务支持四类信息一次讲清楚。
+        - article [ref=e152]:
+          - strong [ref=e153]: 组织协同
+          - paragraph [ref=e154]: 让业务、财务、管理和服务团队对同一套规则形成共识。
+        - article [ref=e155]:
+          - strong [ref=e156]: 长期推进
+          - paragraph [ref=e157]: 先稳住管理基础，再进入更长周期的会员和复购动作。
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: 下一步
+        - heading "正式推进前，先把关键保障点看清楚" [level=2] [ref=e163]
+        - paragraph [ref=e164]: 结合品牌团队、活动类型和合作方式，梳理更需要提前确认的管理边界和保障重点。
+      - generic [ref=e165]:
+        - link "预约沟通" [ref=e166] [cursor=pointer]:
+          - /url: ./contact.html
+        - link "查看合作方式" [ref=e167] [cursor=pointer]:
+          - /url: ./models.html
+  - contentinfo [ref=e168]:
+    - paragraph [ref=e170]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

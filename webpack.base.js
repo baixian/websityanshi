@@ -4,6 +4,34 @@ const CopyPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const pages = require('./pages')
+const packageJson = require('./package.json')
+
+const configuredSiteUrl = process.env.SITE_URL || packageJson.homepage || ''
+const hasConfiguredSiteUrl = Boolean(configuredSiteUrl)
+const siteUrl = hasConfiguredSiteUrl ? new URL(configuredSiteUrl) : null
+const siteOrigin = siteUrl ? siteUrl.origin : ''
+const siteBasePath = siteUrl ? siteUrl.pathname.replace(/\/$/, '') : ''
+
+function getCanonicalUrl(filename) {
+  if (!siteOrigin) {
+    return ''
+  }
+
+  const pathname = filename === 'index.html'
+    ? `${siteBasePath || ''}/`
+    : `${siteBasePath || ''}/${filename}`
+
+  return new URL(pathname, siteOrigin).toString()
+}
+
+function getShareImageUrl() {
+  if (!siteOrigin) {
+    return ''
+  }
+
+  const pathname = `${siteBasePath || ''}/social-share.jpg`
+  return new URL(pathname, siteOrigin).toString()
+}
 
 function getEntry() {
   const result = {}
@@ -20,7 +48,9 @@ function getHtmlPlugin() {
       new HtmlWebpackPlugin({
         chunks: [key],
         template: path.resolve(__dirname, pages[key].html),
-        filename: pages[key].out
+        filename: pages[key].out,
+        canonicalUrl: getCanonicalUrl(pages[key].out),
+        shareImageUrl: getShareImageUrl()
       })
     )
   }

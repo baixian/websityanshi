@@ -4,380 +4,224 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>解决方案 | 呐客科技</title>
-    <meta name="description" content="了解品牌增长解决方案，围绕线下扫码、会员留存和复购运营，把顾客接住、留下来，再继续带动后续购买。">
-    <meta name="keywords" content="品牌增长解决方案,线下扫码,会员运营,复购增长,顾客留存">
+    <title>扫码增长解决方案路径｜从触达到复购的经营设计｜呐客科技</title>
+    <meta name="description" content="围绕包装扫码、门店互动和活动入口，梳理品牌如何把一次触达接成会员连接、后续运营和复购转化，让增长回到同一条经营路径。">
+    <meta name="keywords" content="扫码增长解决方案,会员连接,复购转化,品牌经营路径,门店互动">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="format-detection" content="telephone=no, email=no, address=no">
-    <meta name="theme-color" content="#f6efe7">
+    <meta name="theme-color" content="#f8fafc">
     <meta name="application-name" content="呐客科技">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="呐客科技">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="msapplication-TileColor" content="#f6efe7">
+    <meta name="msapplication-TileColor" content="#f8fafc">
     <meta property="og:locale" content="zh_CN">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="呐客科技">
-    <meta property="og:title" content="解决方案 | 呐客科技">
-    <meta property="og:description" content="了解品牌增长解决方案，围绕线下扫码、会员留存和复购运营，把顾客接住、留下来，再继续带动后续购买。">
+    <meta property="og:title" content="扫码增长解决方案路径｜从触达到复购的经营设计">
+    <meta property="og:description" content="重点讲清楚品牌如何先承接触达、再沉淀关系、再推动后续运营与复购，而不是把页面写成功能介绍。">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="解决方案 | 呐客科技">
-    <meta name="twitter:description" content="了解品牌增长解决方案，围绕线下扫码、会员留存和复购运营，把顾客接住、留下来，再继续带动后续购买。">
-    <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="twitter:title" content="扫码增长解决方案路径｜从触达到复购的经营设计">
+    <meta name="twitter:description" content="重点讲清楚品牌如何先承接触达、再沉淀关系、再推动后续运营与复购，而不是把页面写成功能介绍。">
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.canonicalUrl %>">
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.canonicalUrl %>">
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.shareImageUrl %>">
+    <meta property="og:image:alt" content="扫码增长解决方案路径页面视觉图">
+    <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.shareImageUrl %>">
+    <meta name="twitter:image:alt" content="扫码增长解决方案路径页面视觉图">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./favicon.ico" sizes="any">
+    <link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body>
     <%= require("html-loader!../common/header/index.html") %>
-    <main class="solution-page">
-        <section class="page-hero solution-hero-light">
+    <main class="solution-page" id="main-content" tabindex="-1">
+        <div class="solution-progress" aria-hidden="true">
+            <span class="solution-progress-bar"></span>
+        </div>
+
+        <section class="page-hero solution-hero" id="solution-hero">
             <div class="page-container solution-hero-shell">
-                <div class="solution-hero-main surface surface-warm">
-                    <div class="eyebrow">完整解决方案</div>
-                    <h1>把扫码、会员和复购接起来。</h1>
-                    <p class="lead">从线下扫码开始，把顾客接住、留下，再继续带动复购。</p>
+                <div class="solution-hero-copy reveal-item">
+                    <div class="eyebrow">解决方案</div>
+                    <h1>让触达、留存和复购回到同一条路径</h1>
+                    <p class="lead">从包装扫码、门店互动和活动入口开始，把用户接进会员连接、内容运营和后续购买，让一次触达真正服务于长期结果。</p>
                     <div class="cta-row">
-                        <a class="btn btn-primary" href="./contact.html">获取解决方案</a>
-                        <a class="btn btn-secondary" href="./products.html">查看产品能力</a>
+                        <a class="btn btn-primary" href="./contact.html">预约方案沟通</a>
+                        <a class="btn btn-secondary" href="./products.html">了解产品能力</a>
                     </div>
-                    <div class="hero-points">
-                        <span>先讲经营问题，再讲解决路径</span>
-                        <span>从真实零售入口出发，而不是空泛概念</span>
-                        <span>让业务、运营和管理层都能看懂</span>
-                    </div>
-                    <div class="stats-strip solution-hero-metrics">
-                        <article class="stat-chip">
-                            <strong>3 段核心目标</strong>
-                            <span>先把顾客接住，再持续互动，最后带动复购，避免每次活动做完就断掉。</span>
-                        </article>
-                        <article class="stat-chip">
-                            <strong>7 步经营路径</strong>
-                            <span>从扫码到后续提醒，把每次互动都接进后续经营里。</span>
-                        </article>
-                        <article class="stat-chip">
-                            <strong>1 套品牌底盘</strong>
-                            <span>让顾客信息、活动内容和经营数据放在同一套体系里，不再分散。</span>
-                        </article>
+                    <div class="solution-hero-keys" aria-label="路径要点">
+                        <span>先统一入口</span>
+                        <span>再沉淀关系</span>
+                        <span>后续运营才接得上</span>
                     </div>
                 </div>
-                <div class="solution-hero-side">
-                    <div class="hero-stage solution-hero-scene">
-                        <div class="stage-note">
-                            <strong>业务现场</strong>
-                            <p>门店、包装和扫码动作共同出现，让品牌入口自然发生在真实交易现场。</p>
-                        </div>
-                        <div class="shelf solution-shelf"></div>
-                        <div class="product solution-product"></div>
-                        <div class="phone solution-phone"></div>
-                        <div class="floating-card solution-floating-entry">
-                            <small>连接入口</small>
-                            <strong>线下扫码接入</strong>
-                        </div>
-                        <div class="floating-card solution-floating-profile">
-                            <small>会员留存</small>
-                            <strong>会员与标签识别</strong>
-                        </div>
-                        <div class="floating-card solution-floating-result">
-                            <small>经营结果</small>
-                            <strong>复购与持续提醒</strong>
-                        </div>
-                        <div class="scene-caption">
-                            <strong>交易现场</strong>
-                            <span>门店陈列、商品包装与用户扫码动作共同呈现，突出“交易现场即增长入口”。</span>
-                        </div>
-                    </div>
-                    <aside class="surface trust-surface solution-hero-trust">
-                        <div class="solution-trust-stack">
-                            <div class="eyebrow eyebrow-dark">核心共识</div>
-                            <h3>品牌需要的不是单点工具，而是从入口到复购的完整解决方案。</h3>
-                            <div class="solution-trust-grid">
-                                <article class="trust-card">
-                                    <h3>入口可控</h3>
-                                    <p>让产品、门店和活动物料先回到品牌自己的连接体系里。</p>
-                                </article>
-                                <article class="trust-card">
-                                    <h3>路径完整</h3>
-                                    <p>每一段动作都能找到前后关系，不再靠零散项目拼接。</p>
-                                </article>
-                                <article class="trust-card">
-                                    <h3>结果可复用</h3>
-                                    <p>一次活动做完后，用户、数据和策略还能继续服务下一轮增长。</p>
-                                </article>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </div>
-        </section>
 
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>真正难的，是顾客没留下、复购没接上</h2>
-                    <p>很多品牌不是没做活动，而是顾客没留下，后面也接不上复购。</p>
-                </div>
-                <div class="solution-problem-layout">
-                    <article class="problem-lead">
-                        <span class="problem-kicker">经营断点</span>
-                        <h3>增长动作一直在做，但品牌自己的顾客关系并没有同步留下来。</h3>
-                        <p>做活动、做促销、做投放都能带来一波结果，但如果交易结束后顾客就断了联系、数据散落、内容和权益也接不上，品牌每一轮增长都像重新起跑。</p>
-                    </article>
-                    <aside class="surface trust-surface solution-problem-trust">
-                        <div class="solution-problem-note">
-                            <div class="eyebrow eyebrow-dark">为什么会断</div>
-                            <h3>不是没有动作，而是动作之间没有同一套方式来接住顾客。</h3>
-                            <p>入口没有带来识别，识别没有带来留存，留存没有带来后续运营，结果自然也很难继续用在后面的经营里。</p>
-                        </div>
-                    </aside>
-                    <div class="surface surface-tinted solution-problem-grid">
-                        <div class="grid-3">
-                            <article class="info-card">
-                                <h3>公域获客越来越重</h3>
-                                <p>品牌持续为流量买单，却没有同步建立自己的用户触达底盘。</p>
-                            </article>
-                            <article class="info-card">
-                                <h3>线下交易留不下关系</h3>
-                                <p>商品卖出去了，但购买后的顾客没有继续留在品牌会员和后续联系里。</p>
-                            </article>
-                            <article class="info-card">
-                                <h3>活动热闹但留不住人</h3>
-                                <p>每次活动都能带来一波关注，却很难把这批顾客留下来继续联系。</p>
-                            </article>
-                            <article class="info-card">
-                                <h3>运营流程依赖人工</h3>
-                                <p>分层、触达、跟进和效果回看都要手动推动，效率和稳定性都很难提升。</p>
-                            </article>
-                            <article class="info-card">
-                                <h3>会员价值释放不足</h3>
-                                <p>虽然有人入会，但标签、内容和权益没有持续接上后面的经营动作。</p>
-                            </article>
-                            <article class="info-card">
-                                <h3>结果带不回下一轮动作</h3>
-                                <p>结果没法直接用来调整下一轮动作，品牌就很难越做越顺。</p>
-                            </article>
-                        </div>
+                <div class="solution-hero-visual reveal-item">
+                    <div class="solution-hero-image-card">
+                        <img
+                            src="<%= require('../../assets/img/solution-hero-overview.png') %>"
+                            alt="从扫码入口到复购忠诚的解决方案总览图"
+                            width="1672"
+                            height="941"
+                            loading="eager"
+                            decoding="async"
+                            fetchpriority="high"
+                        />
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>解决方案主线：先连接，再留下来，最后带动复购</h2>
-                    <p>用一条清晰路径把“为什么做”和“怎么做”直接连起来。</p>
+        <section class="section solution-story-step" id="solution-intake">
+            <div class="page-container solution-story-shell">
+                <div class="solution-story-copy reveal-item">
+                    <span class="solution-step-index">01</span>
+                    <h2>先把分散入口接进同一条承接路径</h2>
+                    <p>无论用户来自包装、门店、地推物料还是节点活动，品牌首先要解决的，都是“来了以后往哪里走”，而不是让每个入口各自结束在当场。</p>
+                    <ul class="solution-benefit-list">
+                        <li>减少扫码之后没有后续动作的流失</li>
+                        <li>让不同场景的人群进入统一承接入口</li>
+                        <li>为会员留资和后续沟通打下基础</li>
+                    </ul>
                 </div>
-                <div class="surface surface-warm solution-flow-surface">
-                    <div class="solution-flow-intro">
-                        <article class="card solution-flow-summary">
-                            <span class="tag">方法路径</span>
-                            <h3>从入口到复购，是一条接得上的路。</h3>
-                            <p>先把顾客接进品牌体系，再用会员、内容、权益和自动化运营把关系拉长，最后把这次结果整理出来，方便下一轮优化。</p>
-                        </article>
-                        <aside class="card solution-flow-value">
-                            <span class="tag">客户关注点</span>
-                            <p>客户最关心的通常不是功能多不多，而是这套做法能不能落地、能不能持续运行、能不能真正带来复购和老客回访。</p>
-                        </aside>
-                    </div>
-                    <div class="flow">
-                        <article class="flow-step"><span>1</span><h4>建立入口</h4><p>把产品包装和交易现场变成品牌识别起点。</p></article>
-                        <article class="flow-step"><span>2</span><h4>用户识别</h4><p>识别来源、行为和基础关系状态。</p></article>
-                        <article class="flow-step"><span>3</span><h4>会员留存</h4><p>把用户导入会员或后续可联系体系。</p></article>
-                        <article class="flow-step"><span>4</span><h4>互动激活</h4><p>用内容、活动和权益提升参与意愿。</p></article>
-                        <article class="flow-step"><span>5</span><h4>分层运营</h4><p>围绕不同用户状态设计节奏化触达。</p></article>
-                        <article class="flow-step"><span>6</span><h4>复购转化</h4><p>让运营动作回到成交和持续交易结果。</p></article>
-                        <article class="flow-step"><span>7</span><h4>结果回看</h4><p>把每一轮结果整理出来，用于下一轮优化。</p></article>
-                    </div>
-                    <div class="result-band solution-result-band">
-                        <article class="result-card">
-                            <strong>入口</strong>
-                            <h3>先把交易场景变成品牌自己的用户入口</h3>
-                            <p>产品包装、门店陈列和活动物料不再只是销售介质，而是与消费者建立连接的第一触点。</p>
-                        </article>
-                        <article class="result-card">
-                            <strong>留存</strong>
-                            <h3>再把用户放进长期可经营的关系结构</h3>
-                            <p>会员、标签、内容和权益开始按同一套方式运作，不只是加好友或拉群。</p>
-                        </article>
-                        <article class="result-card">
-                            <strong>复用</strong>
-                            <h3>每一次增长动作都为下一次经营积累基础</h3>
-                            <p>数据和结果能够回到下一轮动作里，品牌不必每次都从零开始重建增长路径。</p>
-                        </article>
+                <div class="solution-story-visual reveal-item">
+                    <div class="solution-visual-media">
+                        <img
+                            src="<%= require('../../assets/img/solution-entry-intake.png') %>"
+                            alt="多入口统一承接的解决方案示意图"
+                            width="1448"
+                            height="1086"
+                            loading="lazy"
+                            decoding="async"
+                        />
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>按业务阶段拆成 4 个动作</h2>
-                    <p>四个关键阶段把抽象方案拆成更容易理解、也更容易执行的动作。</p>
+        <section class="section solution-story-step solution-story-step-reverse" id="solution-member">
+            <div class="page-container solution-story-shell">
+                <div class="solution-story-copy reveal-item">
+                    <span class="solution-step-index">02</span>
+                    <h2>把第一次兴趣接成可持续的会员关系</h2>
+                    <p>用户扫过一次码，并不等于品牌真正拥有了这次连接。只有把这次触达沉淀为可识别、可互动、可持续沟通的关系，后续运营才有基础。</p>
+                    <ul class="solution-benefit-list">
+                        <li>让用户关系不再停留在单次活动</li>
+                        <li>让会员运营不再面对模糊人群</li>
+                        <li>让后续内容、权益和节日动作接得上前面的触达</li>
+                    </ul>
                 </div>
-                <div class="solution-scene-stack">
-                    <section class="surface solution-scene-band">
-                        <div class="solution-scene-layout">
-                            <div class="media-card solution-scene-media">
-                                <div class="photo-note">
-                                    <strong>入口场景</strong>
-                                    <span>收银台或货架旁，消费者购买后自然扫码，包装与手机动作同框呈现。</span>
-                                </div>
-                            </div>
-                            <div class="solution-scene-content">
-                                <span class="tag">阶段一</span>
-                                <h3>把线下商品和活动现场变成品牌连接入口</h3>
-                                <p>先解决“用户怎么进来”的问题。所有后续运营的前提，都是品牌先拥有一个稳定、真实、低摩擦的入口。</p>
-                                <div class="solution-scene-grid">
-                                    <article class="card solution-scene-card">
-                                        <h4>关键动作</h4>
-                                        <p>产品包装赋码、门店物料布点、活动页承接、渠道与批次信息绑定。</p>
-                                    </article>
-                                    <article class="card solution-scene-card">
-                                        <h4>客户价值</h4>
-                                        <p>让交易现场天然具备连接和识别能力，避免线下成交后用户关系立刻中断。</p>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="surface solution-scene-band">
-                        <div class="solution-scene-layout solution-scene-layout-reverse">
-                            <div class="solution-scene-content">
-                                <span class="tag">阶段二</span>
-                                <h3>让活动和权益不只拉动参与，还能帮品牌把顾客留下来</h3>
-                                <p>促销、抽奖、积分和导购配合这些动作不该各做各的，它们应该一起服务于会员识别和后续运营准备。</p>
-                                <div class="solution-scene-grid">
-                                    <article class="card solution-scene-card">
-                                        <h4>关键动作</h4>
-                                        <p>活动机制设计、权益发放、导购辅助转化、用户参与路径优化、内容触达。</p>
-                                    </article>
-                                    <article class="card solution-scene-card">
-                                        <h4>客户价值</h4>
-                                        <p>提升参与率和转化率的同时，为后续分层和持续经营收集更完整的用户信号。</p>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="media-card solution-scene-media solution-scene-media-soft">
-                                <div class="photo-note">
-                                    <strong>互动场景</strong>
-                                    <span>手机上展示领券、抽奖或活动页，结合促销陈列与导购互动场景。</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="surface solution-scene-band">
-                        <div class="solution-scene-layout">
-                            <div class="media-card solution-scene-media solution-scene-media-rich">
-                                <div class="photo-note">
-                                    <strong>关系场景</strong>
-                                    <span>会员页、社群触达和内容运营共同呈现，强调活动之后的长期关系经营。</span>
-                                </div>
-                            </div>
-                            <div class="solution-scene-content">
-                                <span class="tag">阶段三</span>
-                                <h3>把一次参与变成长期顾客关系和分层经营</h3>
-                                <p>会员、标签、内容和权益不应该分别存在。它们都该服务于顾客为什么愿意再回来这件事。</p>
-                                <div class="solution-scene-grid">
-                                    <article class="card solution-scene-card">
-                                        <h4>关键动作</h4>
-                                        <p>会员入会、标签分层、入会承接、内容节奏、权益触发、复购提醒。</p>
-                                    </article>
-                                    <article class="card solution-scene-card">
-                                        <h4>客户价值</h4>
-                                        <p>把一次扫码和互动变成长期顾客关系，让复购不再总靠重新投放。</p>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="surface solution-scene-band">
-                        <div class="solution-scene-layout solution-scene-layout-reverse">
-                            <div class="solution-scene-content">
-                                <span class="tag">阶段四</span>
-                                <h3>用自动化和结果回看，让方案从“能做”变成“能长期跑”</h3>
-                                <p>真正可复用的方案，必须减少人工负担，并且让每轮执行结果都能反馈到下一轮动作里。</p>
-                                <div class="solution-scene-grid">
-                                    <article class="card solution-scene-card">
-                                        <h4>关键动作</h4>
-                                        <p>自动触达、任务编排、效果监测、回访分析、策略优化、节奏回看。</p>
-                                    </article>
-                                    <article class="card solution-scene-card">
-                                        <h4>客户价值</h4>
-                                        <p>提升运营效率，稳定经营节奏，让复购、拉新和用户价值提升进入可持续循环。</p>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="media-card solution-scene-media solution-scene-media-deep">
-                                <div class="photo-note">
-                                    <strong>运营场景</strong>
-                                    <span>运营进度、触达提醒和业务结果持续更新，让团队看到方案正在稳定运行。</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                <div class="solution-story-visual reveal-item">
+                    <div class="solution-visual-media">
+                        <img
+                            src="<%= require('../../assets/img/solution-member-retention.png') %>"
+                            alt="会员留存和关系沉淀的解决方案示意图"
+                            width="1448"
+                            height="1086"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="page-container">
-                <div class="section-head">
-                    <h2>除了怎么做，客户也会关心怎么开始、谁来配合、结果怎么看</h2>
-                    <p>把抽象方案进一步落到合作方式和执行步骤上，减少“听起来很好，但不知怎么开始”的阻力。</p>
+        <section class="section solution-story-step" id="solution-operations">
+            <div class="page-container solution-story-shell">
+                <div class="solution-story-copy reveal-item">
+                    <span class="solution-step-index">03</span>
+                    <h2>让节点活动不只服务当期销量</h2>
+                    <p>新品上市、节庆促销、门店动销和渠道活动当然重要，但真正决定长期回报的，是活动结束之后用户还能不能继续被唤醒、被服务、被转化。</p>
+                    <ul class="solution-benefit-list">
+                        <li>提升活动结束后的留存机会</li>
+                        <li>提升会员活跃和内容触达的连续性</li>
+                        <li>提升复购转化，不只依赖下一次大促</li>
+                    </ul>
                 </div>
-                <div class="surface solution-delivery-surface">
-                    <div class="solution-delivery-intro">
-                        <article class="card solution-delivery-summary">
-                            <span class="tag">落地方式</span>
-                            <h3>解决方案既要说得清，也要方便品牌继续往下推进。</h3>
-                            <p>从试点场景切入，到阶段建设，再到持续优化，让客户看到“先从哪一步开始”以及“后面怎么扩”。</p>
-                        </article>
-                        <aside class="card solution-delivery-value">
-                            <span class="tag">沟通要点</span>
-                            <p>可以提前说清上线周期、参与角色、试点方式和结果怎么看。</p>
-                        </aside>
+                <div class="solution-story-visual reveal-item">
+                    <div class="solution-visual-media">
+                        <img
+                            src="<%= require('../../assets/img/solution-operations-cycle.png') %>"
+                            alt="后续运营和复购循环的解决方案示意图"
+                            width="1448"
+                            height="1086"
+                            loading="lazy"
+                            decoding="async"
+                        />
                     </div>
-                    <div class="solution-delivery-grid">
-                        <article class="card delivery-card">
+                </div>
+            </div>
+        </section>
+
+        <section class="section solution-story-step solution-story-step-reverse" id="solution-scale">
+            <div class="page-container solution-story-shell">
+                <div class="solution-story-copy reveal-item">
+                    <span class="solution-step-index">04</span>
+                    <h2>先在重点产品线跑通，再复制到更多场景</h2>
+                    <p>更稳妥的做法通常不是一次铺开，而是先在重点渠道、重点区域或重点活动上验证模式，等结果清楚了，再逐步复制到更长周期的经营中。</p>
+                    <ul class="solution-benefit-list">
+                        <li>降低前期试错压力</li>
+                        <li>更容易看到留存和复购上的真实变化</li>
+                        <li>让后续复制和放大更有依据</li>
+                    </ul>
+                </div>
+                <div class="solution-story-visual reveal-item">
+                    <div class="solution-visual-media">
+                        <img
+                            src="<%= require('../../assets/img/solution-pilot-scale.png') %>"
+                            alt="从试点到复制放大的解决方案示意图"
+                            width="1448"
+                            height="1086"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section solution-proof-section" id="solution-proof">
+            <div class="page-container">
+                <div class="solution-proof-surface surface reveal-item">
+                    <div class="solution-proof-copy">
+                        <div class="eyebrow">方案证明</div>
+                        <h2>方案的价值，不在动作多少，而在后续结果多少</h2>
+                        <p>当活动后的用户还能继续被连接和转化，这条路径才有长期价值。</p>
+                    </div>
+                    <div class="solution-proof-flow">
+                        <article class="solution-proof-card">
                             <span>01</span>
-                            <h3>试点先行</h3>
-                            <p>优先从单个品类、单个区域或一次重点活动切入，先看入口和顾客留存效果。</p>
+                            <strong>先把入口接住</strong>
+                            <p>包装、门店和活动入口不再各自结束在当场。</p>
                         </article>
-                        <article class="card delivery-card">
+                        <article class="solution-proof-card">
                             <span>02</span>
-                            <h3>分阶段建设</h3>
-                            <p>先建立入口和识别，再逐步叠加活动、会员、自动化和分析能力，降低一次性改造压力。</p>
+                            <strong>再把关系留下</strong>
+                            <p>让留资、入会和后续触达建立在同一批用户上。</p>
                         </article>
-                        <article class="card delivery-card">
+                        <article class="solution-proof-card">
                             <span>03</span>
-                            <h3>多角色配合</h3>
-                            <p>市场、渠道、门店、导购和运营团队按同一条路径推进，各自负责不同执行节点。</p>
-                        </article>
-                        <article class="card delivery-card">
-                            <span>04</span>
-                            <h3>结果持续回看</h3>
-                            <p>围绕入会率、互动率、活跃度和复购行为持续看结果，而不是只看单次活动热度。</p>
+                            <strong>最后才看放大节奏</strong>
+                            <p>哪些动作值得继续投，哪些场景适合复制，会更容易判断。</p>
                         </article>
                     </div>
-                    <div class="solution-cta-panel">
-                        <div class="solution-cta-copy">
-                            <h2>如果你认同顾客不能只停在扫码这一步，下一步就该确定先从哪个场景开始。</h2>
-                            <p>可以先从重点产品、区域渠道或会员增长目标开始，我们再把入口、活动、留存和自动运营整理成适合你的落地做法。</p>
-                        </div>
-                        <div class="solution-cta-actions">
-                            <a class="btn btn-primary" href="./contact.html">获取方案建议</a>
-                            <a class="btn btn-secondary" href="./products.html">继续看产品矩阵</a>
-                            <div class="matrix-fit-tags solution-fit-tags">
-                                <span>适合线下零售与消费品牌</span>
-                                <span>适合会员与复购经营升级</span>
-                                <span>适合从试点到长期扩展</span>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section solution-cta-section">
+            <div class="page-container">
+                <div class="solution-cta-surface surface reveal-item">
+                    <div class="solution-cta-copy">
+                        <div class="eyebrow">下一步</div>
+                        <h2>结合当前重点，确定更适合的落地方式</h2>
+                        <p>从产品线、渠道结构和活动节奏出发，梳理更值得优先验证的场景和动作。</p>
+                    </div>
+                    <div class="solution-cta-actions">
+                        <a class="btn btn-primary" href="./contact.html">预约方案沟通</a>
+                        <a class="btn btn-secondary" href="./industries.html">查看行业场景</a>
                     </div>
                 </div>
             </div>

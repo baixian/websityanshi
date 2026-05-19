@@ -1,0 +1,170 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "呐客科技首页" [ref=e5] [cursor=pointer]:
+        - /url: ./index.html
+        - generic [ref=e7]:
+          - strong [ref=e8]: 呐客科技
+          - generic [ref=e9]: 扫码留存、会员沉淀与复购经营
+      - navigation "主导航" [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: ./index.html
+        - link "解决方案" [ref=e12] [cursor=pointer]:
+          - /url: ./solution.html
+        - link "产品支持" [ref=e13] [cursor=pointer]:
+          - /url: ./products.html
+        - link "行业场景" [ref=e14] [cursor=pointer]:
+          - /url: ./industries.html
+        - link "客户案例" [ref=e15] [cursor=pointer]:
+          - /url: ./cases.html
+        - link "合作方式" [ref=e16] [cursor=pointer]:
+          - /url: ./models.html
+        - link "安全保障" [ref=e17] [cursor=pointer]:
+          - /url: ./security.html
+        - link "商务咨询" [ref=e18] [cursor=pointer]:
+          - /url: ./contact.html
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 扫码增长解决方案首页
+        - heading "把一次扫码，做成品牌的长期连接。" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 面向快消、酒水、食品、日化与连锁零售品牌，帮助企业把促销、门店与渠道中的流量，沉淀为会员资产、复购机会与更稳定的经营结果。
+        - generic [ref=e27]:
+          - link "预约方案沟通" [ref=e28] [cursor=pointer]:
+            - /url: "#contact"
+          - link "查看解决方案" [ref=e29] [cursor=pointer]:
+            - /url: ./solution.html
+        - generic [ref=e30]:
+          - generic [ref=e31]: 先判断这件事和自己有没有关系
+          - generic [ref=e32]: 再看怎么把一次触达接成后续经营
+          - generic [ref=e33]: 最后看适合从哪个场景开始
+      - generic [ref=e35]:
+        - img "包装扫码与会员承接的首页主视觉" [ref=e36]
+        - generic [ref=e37]:
+          - strong [ref=e38]: 包装与门店入口
+          - generic [ref=e39]: 把真实交易现场接回品牌自己的连接路径。
+        - generic [ref=e40]:
+          - strong [ref=e41]: 会员连接
+          - generic [ref=e42]: 让留资、入会和权益承接发生在同一次触达里。
+        - generic [ref=e43]:
+          - strong [ref=e44]: 复购节奏
+          - generic [ref=e45]: 把后续触达和再次购买留在品牌自己的经营计划里。
+    - generic [ref=e48]:
+      - article [ref=e49]:
+        - generic [ref=e50]: 服务覆盖
+        - strong [ref=e51]: "0"
+        - paragraph [ref=e52]: 适合有包装触点、门店动作和活动节奏的消费品牌。
+      - article [ref=e53]:
+        - generic [ref=e54]: 项目经验
+        - strong [ref=e55]: "0"
+        - paragraph [ref=e56]: 更适合先从重点产品线、重点场景或重点门店跑起试点。
+      - article [ref=e57]:
+        - generic [ref=e58]: 经营目标
+        - strong [ref=e59]: "0"
+        - paragraph [ref=e60]: 重点不只是当次转化，而是会员沉淀、活跃和后续复购机会。
+      - article [ref=e61]:
+        - generic [ref=e62]: 适配行业
+        - strong [ref=e63]: "0"
+        - paragraph [ref=e64]: 快消、酒水、食品、日化与连锁零售都能按各自节奏推进。
+    - article [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: 01 / 为什么很多投入没有真正沉淀下来
+        - heading "真正的问题，不是没流量，而是留不住。" [level=2] [ref=e70]
+        - paragraph [ref=e71]: 很多品牌并不缺促销、投放和终端活动，真正被反复消耗的，是每次触达之后没有后续连接，下一次增长还得重新花钱把用户找回来。
+        - list [ref=e72]:
+          - listitem [ref=e73]: 让活动带来的人群不只停留在当次转化。
+          - listitem [ref=e74]: 让终端和渠道投入逐步沉淀为品牌自有用户。
+          - listitem [ref=e75]: 让下一次复购和触达不必重新从公域开始。
+        - link "查看客户案例" [ref=e76] [cursor=pointer]:
+          - /url: ./cases.html
+      - img "活动流量分散、承接断开的业务问题示意图" [ref=e79]
+    - article [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]: 02 / 这套方案到底在解决什么
+        - heading "扫码不只是领奖，更是品牌连接的入口。" [level=2] [ref=e85]
+        - paragraph [ref=e86]: 一物一码当然可以服务促销和核销，但更重要的价值在于，把一次短暂接触变成会员留资、内容触达和后续运营的起点。
+        - list [ref=e87]:
+          - listitem [ref=e88]: 承接包装、门店和活动中的用户触点。
+          - listitem [ref=e89]: 让扫码用户更自然地进入会员连接。
+          - listitem [ref=e90]: 为新品种草、节点活动和复购提醒留下后续空间。
+        - link "查看完整方案" [ref=e91] [cursor=pointer]:
+          - /url: ./solution.html
+      - img "从扫码入口到会员承接的方案示意图" [ref=e94]
+    - article [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]: 03 / 做这件事，价值不只体现在当下
+        - heading "真正拉开差距的，在活动之后。" [level=2] [ref=e100]
+        - paragraph [ref=e101]: 比起当场多卖一单，品牌更该关注活动后的会员活跃、再次购买、节日回流和内容互动，因为这些才决定一条产品线能不能形成长期增长。
+        - list [ref=e102]:
+          - listitem [ref=e103]: 提升活动后的留存机会。
+          - listitem [ref=e104]: 提升会员后续活跃与二次触达效率。
+          - listitem [ref=e105]: 提升复购转化的持续性，而不是只看单次爆发。
+        - link "看产品如何支撑执行" [ref=e106] [cursor=pointer]:
+          - /url: ./products.html
+      - img "围绕会员活跃、内容触达和复购的结果示意图" [ref=e109]
+    - article [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: 04 / 哪些品牌更适合现在开始
+        - heading "有包装、有门店、有活动节奏的品牌，更适合现在开始。" [level=2] [ref=e115]
+        - paragraph [ref=e116]: 对于快消、酒水、食品、日化和连锁零售品牌来说，前端并不缺触点，缺的是一套能把这些触点慢慢转成会员关系和复购结果的做法。
+        - generic [ref=e117]:
+          - generic [ref=e118]: 正在做新品推广和动销活动的品牌
+          - generic [ref=e119]: 希望加强会员运营和用户留存的品牌
+          - generic [ref=e120]: 想先从重点产品线验证的团队
+          - generic [ref=e121]: 门店、渠道和活动同时在动的经营团队
+        - link "查看行业场景" [ref=e122] [cursor=pointer]:
+          - /url: ./industries.html
+      - img "适合做扫码增长改造的多行业品牌场景" [ref=e125]
+    - generic [ref=e127]:
+      - generic [ref=e129]:
+        - generic [ref=e130]: 案例入口
+        - heading "看看相似品牌怎样把活动流量接成后续经营。" [level=2] [ref=e131]
+      - generic [ref=e132]:
+        - link "新品推广 把首波热度转成后续可触达的会员关系，而不是让尝鲜流量在首发后消散。" [ref=e133] [cursor=pointer]:
+          - /url: ./cases.html
+          - generic [ref=e134]: 新品推广
+          - strong [ref=e135]: 把首波热度转成后续可触达的会员关系，而不是让尝鲜流量在首发后消散。
+        - link "门店动销 让离店之后的再次沟通和再次购买仍然回到品牌自己手里。" [ref=e136] [cursor=pointer]:
+          - /url: ./cases.html
+          - generic [ref=e137]: 门店动销
+          - strong [ref=e138]: 让离店之后的再次沟通和再次购买仍然回到品牌自己手里。
+        - link "渠道活动 把不同区域、不同终端的活动结果沉淀成可复制的方法。" [ref=e139] [cursor=pointer]:
+          - /url: ./cases.html
+          - generic [ref=e140]: 渠道活动
+          - strong [ref=e141]: 把不同区域、不同终端的活动结果沉淀成可复制的方法。
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]: 咨询入口
+        - heading "先判断适不适合，再决定从哪里开始。" [level=2] [ref=e146]
+        - paragraph [ref=e147]: 结合当前的渠道触点、活动节奏和产品重点，梳理更值得优先推进的方向和起步场景。沟通的重点不是立刻上项目，而是先帮你把值不值得做、先做什么看清楚。
+        - generic [ref=e148]:
+          - generic [ref=e149]: 适合正准备推动增长项目的品牌
+          - generic [ref=e150]: 适合想加强留存、活跃和复购的团队
+          - generic [ref=e151]: 适合想先判断优先级和起步场景的决策者
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]: 公司名称
+          - textbox "公司名称" [ref=e155]:
+            - /placeholder: 如：某饮料品牌事业部
+          - paragraph [ref=e156]
+        - generic [ref=e157]:
+          - generic [ref=e158]: 联系人
+          - textbox "联系人" [ref=e159]:
+            - /placeholder: 请输入姓名或岗位
+          - paragraph [ref=e160]
+        - generic [ref=e161]:
+          - generic [ref=e162]: 手机号
+          - textbox "手机号" [ref=e163]:
+            - /placeholder: 请输入可联系手机号
+          - paragraph [ref=e164]
+        - generic [ref=e165]:
+          - generic [ref=e166]: 当前需求
+          - textbox "当前需求" [ref=e167]:
+            - /placeholder: 如：想做扫码会员和复购运营
+          - paragraph [ref=e168]
+        - button "提交咨询信息" [ref=e169] [cursor=pointer]
+        - status [ref=e170]
+  - contentinfo [ref=e171]:
+    - paragraph [ref=e173]: 版权所有 © 2026 呐客（杭州）科技有限公司 · 商务咨询：400-820-2026 · 服务时间：工作日 9:30 - 18:30 · 浙ICP备2024012345号-1 · 浙公网安备33011002001234号

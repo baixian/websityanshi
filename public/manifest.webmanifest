@@ -11,7 +11,7 @@
   "theme_color": "#f6efe7",
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "./favicon.ico",
       "sizes": "16x16 32x32 48x48",
       "type": "image/x-icon"
     }
